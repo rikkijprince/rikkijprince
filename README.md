@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @rikkijprince
+- 👋 Hi, I’m Rikki Jaffar Prince
 - 👀 I’m interested in languages, science, technology, and everything Asgardian
 - 🌱 I’m currently learning Asgardian
 - 💞️ I’m looking to collaborate on Asgardian Language Project
