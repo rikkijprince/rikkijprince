@@ -1,5 +1,7 @@
-- 👋 Hi, I’m /bRikki J Prince/b, author of the Sarah Mackay saga and many other works.
-- 👀 I’m interested in languages, the natural sciences (especially physics), technology, cosmmology, philosophy, and psychology, amongst others.
-- 🌱 I’m currently writing and actively on all these topics, and looking for readers who share my interests.
-- 💞️ I’m open to AI ghostwriting projects, and willing to help companies create their own AI agents.
+- 👋 Hi, I'm Rikki J Prince. I write stories for curious minds as well as literary noir, gothic thrillers and some romantasy short stories.
+- I also have a brand of graded readers for English learners (RJP Readers).
+- 👀 I would love to share a free sample of my work with you (Nine Days Immersed in Particle Physics in Geneva)
+
+
+
 - 📫 How to reach me: rikkijprince@gmail.com
