@@ -1,8 +1,4 @@
-- 👋 Hi, I'm Rikki J Prince. I write stories for curious minds as well as literary noir and gothic thrillers.
-- 💎 I also have a brand of graded readers for English learners (RJP Readers).
-- 😺 My collaborator, Anwar Zanzibar has a section on sexology and the occult.
-- 🚀 I would love to share a free sample of my work with you (Nine Days Immersed in Particle Physics in Geneva)
+Rikki J Prince. Creator of Hybrid Englidh 5.0, a sysyem of English learning that uses 5 dediicated AI agents to analyse your speech daily, and a weekly consultation session with your (human) teacher where you will disvover exactly how you are improving and which areas need more work.
+Author of msny works of fiction amd non fiction, including a course in technicsl English and a series of English readers.
 
-
-
-- 📫 How to reach me: holeadventures@gmail.com
+- Contact email: me@rikkijprince.com
