@@ -1,0 +1,84 @@
+# Welcome to Jekyll!
+#
+# This config file (_congig.yml) is meant for settings that affect your whole blog,
+# values which you are expected to set up once and rarely edit after that. If you 
+# find yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Rikki J Prince English learning 5.0"
+email: me@rikkijprince.com
+layout: landing
+description: AI-powered English fluency for professionals
+baseurl: ""
+url: "https://rikkijprince.com.github.io"
+theme: minima
+# previous theme: jekyll-theme-primer   # ✅ Use GitHub-supported theme
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+header_pages:
+  - bookpages.md
+  - about.md
+  - novels.md
+  - stories.md
+  - experimental.md
+  - zanzibar.md
+  - readers.md
+  - other.md
+
+# Example navigation links
+nav:
+  - title: "Rikki J Prince"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Novels"
+    url: /novels/
+  - title: "Short Stories"
+    url: /stories/
+  - title: "Experimental Works"
+    url: /experimental/
+  - title: "Anwar Zanzibar"
+    url: /zanzibar/
+  - title: "RJP Readers"
+    url: /readers/
+  - title: "Other Language Editions"
+    url: /other/
+
+repository: rikkijprince/rikkijprince.github.io
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
