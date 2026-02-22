@@ -1,0 +1,54 @@
+<nav class="navbar">
+  <div class="nav-container">
+
+    <!-- Brand -->
+    <a class="nav-logo" href="/index/">Rikki J Prince</a>
+
+    <!-- Menu Toggle (Mobile) -->
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+
+      <li>
+        <a href="/index/">Welcome</a>
+      </li>
+
+      <li>
+        <a href="/rj-academy/">RJ The Academy</a>
+      </li>
+
+      <li>
+        <a href="/communication-lab/">The Lab</a>
+      </li>
+
+      <li>
+        <a href="/hybrid-english/">Hybrid English 5.0</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="dropdown">
+        <a href="/publications/" class="dropbtn">
+          Publications ▾
+        </a>
+        <ul class="dropdown-content">
+          <li>
+            <a href="/technical-english/">Technical English 2026</a>
+          </li>
+          <li>
+            <a href="/readers/">Graded Readers</a>
+          </li>
+          <li>
+            <a href="/experimental/">Experimental Writing</a>
+          </li>
+        </ul>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
