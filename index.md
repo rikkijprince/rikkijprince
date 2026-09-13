@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Rikki J Prince — Welcome"
-description: "English language learning, advanced technology, reflective thinking, and science-fiction writing."
+description: "English language learning, science-based literature, reflective thinking, and some science-fiction."
 permalink: /
 ---
 
@@ -28,7 +28,7 @@ Advanced English training for professionals working in technology, engineering, 
 ### Hybrid English 5.0
 A modular approach to mastering English through cognition, narrative, and real-world application.
 
-[Discover the method](/hybrid-english/)
+[Why I abandoned the AI approach](/hybrid-english/)
 
 ---
 
