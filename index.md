@@ -15,13 +15,12 @@ Some need English for demanding professional work. Others are interested in idea
 
 This site brings those paths together.
 
-
 ## Explore the work
 
-### RJ Communication Lab
+### RJ Academy
 Advanced English training for professionals working in technology, engineering, sales & marketing, and AI-driven fields.
 
-[Explore the Communication Lab](/communication-lab/)
+[Explore RJ Academy](/rj-academy/)
 
 ---
 
@@ -37,7 +36,6 @@ Fiction, experimental writing, and reflective works exploring time, memory, and 
 
 [Browse publications](/publications/)
 
-
 ## Purpose
 
 Language is never just a tool.  
@@ -48,9 +46,8 @@ Others come to read, reflect, or explore ideas through fiction.
 
 This site exists because those pursuits belong together.
 
-
 ## Not sure where to begin?
 
-The Communication Lab offers the clearest introduction to how the educational and creative work on this site connects.
+RJ Academy offers the clearest introduction to the educational and creative work on this site.
 
-[Start here](/communication-lab/)
+[Start here](/rj-academy/)
