@@ -1,4 +1,4 @@
 @echo off
-cd /d "C:\Users\rikki\rikkijprince.github.io"
+cd /d "%~dp0"
 bundle exec jekyll serve
 pause
