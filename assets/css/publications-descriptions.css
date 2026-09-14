@@ -1,0 +1,13 @@
+.row-description {
+  margin-top: 4px;
+  max-width: 72ch;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+@media (max-width: 520px) {
+  .row-description {
+    font-size: 12.5px;
+  }
+}
