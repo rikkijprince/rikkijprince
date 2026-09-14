@@ -86,6 +86,55 @@ a {
   color: #245a8d;
 }
 
+.contact-box {
+  margin-top: 3rem;
+  padding: 2rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  background: #f8f8f8;
+}
+
+.contact-box h2 {
+  margin-top: 0;
+}
+
+.contact-box form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.contact-box label {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fff;
+  font: inherit;
+}
+
+.contact-box button {
+  width: fit-content;
+  margin-top: 0.75rem;
+  padding: 0.7rem 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  background: #222;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.contact-box button:hover,
+.contact-box button:focus {
+  opacity: 0.85;
+}
+
 @media (max-width: 700px) {
   .nav-container {
     flex-wrap: wrap;
@@ -105,5 +154,9 @@ a {
 
   .nav-links.is-open {
     display: flex;
+  }
+
+  .contact-box {
+    padding: 1.25rem;
   }
 }
