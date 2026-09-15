@@ -31,10 +31,6 @@
     "Misterio al revés": "The Spanish edition of Mystery in Reverse, a piece of flash fiction built around an unconventional backwards-moving mystery.",
     "Un crimen por deshacer": "The Spanish edition of Murder Undone, a time-reversed mystery in which a private investigator follows a murder backwards through cause and effect.",
 
-    // Romantasy
-    "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
-    "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
-
     // Witchcraft, Magic & Sexuality
     "Fundamentals of Witchcraft": "An introduction to the foundations of witchcraft and magick, providing a structured starting point for readers developing their understanding and practice.",
     "Witchcraft and Magick": "A practical exploration of witchcraft and magick, moving beyond basic concepts into methods, practices, and the development of a personal magical discipline.",
@@ -96,6 +92,8 @@
     "Clean Slate and Underneath Her Smile": "A collection of two C2.2 stories exploring identity, reinvention, relationships, and the difference between appearance and reality.",
 
     // Novellas
+    "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
+    "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
     "A Café called Zuflucht": "A fragmented European story of Lukas Weiss and Sol Martínez, whose passionate relationship turns into crime, betrayal, and exile before a small Berlin café offers Sol a possible refuge from the past.",
     "Ein Café namens Zuflucht": "A German-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
     "Una Cafetería llamada Zuflucht": "A Spanish-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
@@ -180,9 +178,6 @@
     }
     if (label === "Experimental") {
       return "An experimental work exploring an unconventional narrative structure, perspective, or philosophical idea.";
-    }
-    if (label === "Romantasy") {
-      return "A speculative story combining romance, fantasy, mystery, and questions about identity, reality, and human connection.";
     }
     if (label === "Witchcraft, Magic & Sexuality") {
       return "A practical exploration of symbolism, ritual, belief, and personal practice.";
