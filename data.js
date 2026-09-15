@@ -32,7 +32,6 @@ const CATEGORIES = [
   { slug: "language-learning", label: "Language Learning" },
   { slug: "thrillers", label: "Thrillers" },
   { slug: "sci-fi", label: "Science Fiction" },
-  { slug: "other-nonfiction", label: "Other Non-Fiction" },
 ];
 
 const WORKS = [
@@ -167,9 +166,5 @@ const WORKS = [
   { category: "sci-fi", written: "100", title: "The Universe in Extremis", status: "editing", url: "" },
   { category: "sci-fi", written: "102", title: "The Universe Extra Machina", status: "editing", url: "" },
   { category: "sci-fi", written: "103", title: "The Choir of Dust", status: "editing", url: "" },
-  
-  // ---------------- Other Non-Fiction ----------------
-  { category: "other-nonfiction", written: "106", title: "How to Live With Risk Without Killing Yourself in the Process", status: "published", url: "" },
-  { category: "other-nonfiction", written: "107", title: "The Complete Project Manager's Study Guide", status: "editing", url: "" },
-  { category: "other-nonfiction", written: "108", title: "Adaptive Constitutional Engineering", status: "editing", url: "" },
+
 ];
