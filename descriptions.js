@@ -35,14 +35,18 @@
     "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
     "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
 
-    // Witchcraft & Magick
+    // Witchcraft, Magic & Sexuality
     "Fundamentals of Witchcraft": "An introduction to the foundations of witchcraft and magick, providing a structured starting point for readers developing their understanding and practice.",
     "Witchcraft and Magick": "A practical exploration of witchcraft and magick, moving beyond basic concepts into methods, practices, and the development of a personal magical discipline.",
     "Advanced Witchcraft Training": "An advanced training manual covering techniques such as energy work, astral projection, sigils, evocation, shadow work, and other forms of contemporary magical practice.",
     "Chaos Magick": "An introduction to chaos magick centred on belief, symbolism, sigils, altered states, servitors, experimentation, and the idea that magical practice can be deliberately designed and adapted.",
     "The Complete Witchcraft Training Manual": "A collected edition bringing together the first three Anwar Zanzibar witchcraft training manuals, from foundational practice through advanced techniques.",
     "Practical Guide to Witchcraft & Chaos Magick": "A practical introduction to witchcraft and chaos magick, combining traditional magical concepts with an experimental approach to belief, symbolism, ritual, and personal practice.",
-
+    "Entre Gemidos": "A Spanish-language exploration of the science and psychology of sexual pleasure, examining desire, arousal, the body, and the factors that shape intimate experience.",
+    "Behind the Moans": "An accessible exploration of the science of pleasure, examining the physical, psychological, and emotional dimensions of sexual experience.",
+    "Desire and Dennuciation": "A History of Sex Magic from Ancient Temples to Modern Witchcraft"
+    "Re-Enchantment of the Body": "The Hidden History of Sex, Magic, and the Sacred Body"
+     
     // RJP Readers
     "Max the Brave": "An A1.1 reader about Max, a young hero who faces a small but important challenge and discovers that courage can take many forms.",
     "The Runaway Robot": "An A1.1 reader about a lonely inventor whose small AI robot runs away to explore the city and learns about people, danger, and friendship.",
@@ -90,10 +94,6 @@
     "Clean Slate": "A C2.2 story exploring the possibility of starting again—and the difficulty of escaping the consequences of what came before.",
     "Underneath Her Smile": "A C2.2 psychological story about Liv and Mason, an apparently perfect internet couple whose glamorous public image hides a far more complicated private reality.",
     "Clean Slate and Underneath Her Smile": "A collection of two C2.2 stories exploring identity, reinvention, relationships, and the difference between appearance and reality.",
-
-    // Sexuality
-    "Entre Gemidos": "A Spanish-language exploration of the science and psychology of sexual pleasure, examining desire, arousal, the body, and the factors that shape intimate experience.",
-    "Behind the Moans": "An accessible exploration of the science of pleasure, examining the physical, psychological, and emotional dimensions of sexual experience.",
 
     // Novellas
     "A Café called Zuflucht": "A fragmented European story of Lukas Weiss and Sol Martínez, whose passionate relationship turns into crime, betrayal, and exile before a small Berlin café offers Sol a possible refuge from the past.",
