@@ -184,11 +184,8 @@
     if (label === "Romantasy") {
       return "A speculative story combining romance, fantasy, mystery, and questions about identity, reality, and human connection.";
     }
-    if (label === "Witchcraft & Magick") {
-      return "A practical exploration of witchcraft, magick, symbolism, ritual, belief, and personal practice.";
-    }
-    if (label === "Sexuality") {
-      return "An accessible exploration of sexuality, pleasure, psychology, and human experience.";
+    if (label === "Witchcraft, Magic & Sexuality") {
+      return "A practical exploration of symbolism, ritual, belief, and personal practice.";
     }
     if (label === "Language Learning") {
       return "A practical resource designed to support language learning, study, fluency, or professional communication.";
