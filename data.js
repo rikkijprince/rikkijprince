@@ -87,8 +87,8 @@ const WORKS = [
   { category: "witchcraft-magic-sexuality", pub: 54,  code: "W1-A", title: "Practical Guide to Witchcraft & Chaos Magick", status: "published", url: "https://amazon.es/dp/B0F9XZJVQL" },
   { category: "witchcraft-magic-sexuality", pub: 55, written: 88, title: "Entre Gemidos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0FB9QK8JZ" },
   { category: "witchcraft-magic-sexuality", pub: 56, written: "89", title: "Behind the Moans", status: "published", url: "https://amazon.es/dp/B0FB525NFB" },
-  { category: "witchcraft-magic-sexuality", written: "110", code "W5", title: "Desire and Denunciation", status: "editing",
-  { category: "witchcraft-magic-sexuality", written: "111", code: "W6", title: "Re-Enchantment of the Body", status: editing"
+  { category: "witchcraft-magic-sexuality", written: "110", code: "W5", title: "Desire and Denunciation", status: "editing" },
+  { category: "witchcraft-magic-sexuality", written: "111", code: "W6", title: "Re-Enchantment of the Body", status: "editing" },
 
   // ---------------- English Readers (RJP Readers) ----------------
   { category: "readers", pub: 47, written: "56",    level: "A1.1", title: "Max the Brave", status: "published", url: "https://books2read.com/u/baxvka" },
