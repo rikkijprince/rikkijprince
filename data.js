@@ -33,7 +33,6 @@ const CATEGORIES = [
   { slug: "language-learning", label: "Language Learning" },
   { slug: "thrillers", label: "Thrillers" },
   { slug: "sci-fi", label: "Science Fiction" },
-  { slug: "other-novels", label: "Other Novels" },
   { slug: "other-nonfiction", label: "Other Non-Fiction" },
 ];
 
@@ -68,7 +67,7 @@ const WORKS = [
   { category: "philosophy", pub: 105, written: 97,  code: "F04", title: "Constraintism — A Constraint-based Philosophy", status: "published", url: "https://books2read.com/u/bWD1k0" },
   { category: "philosophy", pub: 106, written: 98,  code: "F05", title: "Threshold Ethics", status: "published", url: "https://books2read.com/u/bPPwwj" },
   { category: "philosophy", pub: 107, written: 99,  code: "F06", title: "Patterns That Matter", status: "published", url: "https://books2read.com/u/4Nz5yG" },
-  { category: "philosophy", pub: 110, written: 105, code: "",    title: "The Symphony of Existence — From the Big Bang to the Illusion of Time", status: "published", url: "" },
+  { category: "philosophy", pub: 110, written: 105, code: "F07", title: "The Symphony of Existence — From the Big Bang to the Illusion of Time", status: "published", url: "" },
 
   // ---------------- Experimental ----------------
   { category: "experimental", pub: 40, written: 37, code: "T01",  title: "Mystery in Reverse", note: "flash fiction", status: "published", url: "https://books2read.com/u/mZkAYy" },
@@ -168,9 +167,7 @@ const WORKS = [
   { category: "sci-fi", code: "100", title: "The Universe in Extremis", status: "editing", url: "" },
   { category: "sci-fi", code: "102", title: "The Universe Extra Machina", status: "editing", url: "" },
   { category: "sci-fi", code: "103", title: "The Choir of Dust", status: "editing", url: "" },
-
-  // ---------------- Other Novels ----------------
-  { category: "other-novels", pub: 120, code: "93", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ" },
+  { category: "sci-fi", pub: 120, code: "93", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ" },
 
   // ---------------- Other Non-Fiction ----------------
   { category: "other-nonfiction", code: "106", title: "How to Live With Risk Without Killing Yourself in the Process", status: "published", url: "" },
