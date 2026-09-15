@@ -1,7 +1,7 @@
 /* ============================================================
    RIKKI J PRINCE — BIBLIOGRAPHY DATA
    ============================================================
-   This is the only file you should need to edit regularly.
+   Edit together with descriptions.js file.
 
    HOW TO ADD A LINK
    ------------------
@@ -79,13 +79,17 @@ const WORKS = [
   { category: "romantasy", pub: 38, written: 36, code: "R01", title: "The Never-Ending Question", note: "novella", status: "published", url: "https://books2read.com/u/brEorZ" },
   { category: "romantasy", pub: 39, written: 42, code: "R02", title: "The Moonfire Pact", note: "novelette", status: "published", url: "https://books2read.com/u/4E0v0e" },
 
-  // ---------------- Witchcraft & Magick (Anwar Zanzibar) ----------------
-  { category: "witchcraft", pub: 44,  written: 47, code: "W1",   title: "Fundamentals of Witchcraft", status: "published", url: "https://books2read.com/u/mZ65GB" },
-  { category: "witchcraft", pub: 45,  written: 48, code: "W2",   title: "Witchcraft and Magick", status: "published", url: "https://books2read.com/u/bPpJPd" },
-  { category: "witchcraft", pub: 46,  written: 49, code: "W3",   title: "Advanced Witchcraft Training", status: "published", url: "https://books2read.com/u/38Ngaw" },
-  { category: "witchcraft", pub: 108, written: 50, code: "W4",   title: "Chaos Magick", status: "published", url: "https://books2read.com/u/4jkZo5" },
-  { category: "witchcraft", pub: 53,  code: "W1-3", title: "The Complete Witchcraft Training Manual", note: "box set · W1–W3", status: "published", url: "https://amazon.es/dp/B0F32D82J9" },
-  { category: "witchcraft", pub: 54,  code: "W1-A", title: "Practical Guide to Witchcraft & Chaos Magick", status: "published", url: "https://amazon.es/dp/B0F9XZJVQL" },
+  // ---------------- Witchcraft, Magic & Sexuality ----------------
+  { category: "witchcraft, magic & sexuality", pub: 44,  written: 47, code: "W1",   title: "Fundamentals of Witchcraft", status: "published", url: "https://books2read.com/u/mZ65GB" },
+  { category: "witchcraft, magic & sexuality", pub: 45,  written: 48, code: "W2",   title: "Witchcraft and Magick", status: "published", url: "https://books2read.com/u/bPpJPd" },
+  { category: "witchcraft, magic & sexuality", pub: 46,  written: 49, code: "W3",   title: "Advanced Witchcraft Training", status: "published", url: "https://books2read.com/u/38Ngaw" },
+  { category: "witchcraft, magic & sexuality", pub: 108, written: 50, code: "W4",   title: "Chaos Magick", status: "published", url: "https://books2read.com/u/4jkZo5" },
+  { category: "witchcraft, magic & sexuality", pub: 53,  code: "W1-3", title: "The Complete Witchcraft Training Manual", note: "box set · W1–W3", status: "published", url: "https://amazon.es/dp/B0F32D82J9" },
+  { category: "witchcraft, magic & sexuality", pub: 54,  code: "W1-A", title: "Practical Guide to Witchcraft & Chaos Magick", status: "published", url: "https://amazon.es/dp/B0F9XZJVQL" },
+  { category: "witchcraft, magic & sexuality", pub: 55, code: "88", title: "Entre Gemidos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0FB9QK8JZ" },
+  { category: "witchcraft, magic & sexuality", pub: 56, code: "89", title: "Behind the Moans", status: "published", url: "https://amazon.es/dp/B0FB525NFB" },
+  { category: "witchcraft, magic & sexuality", code: "108", title: "Desire and Denunciation", status: "editing"
+  { category: "witchcraft, magic & sexuality", code: "109", title: "Re-Enchantment of the Body", status: editing"
 
   // ---------------- English Readers (RJP Readers) ----------------
   { category: "readers", pub: 47, code: "56",    level: "A1.1", title: "Max the Brave", status: "published", url: "https://books2read.com/u/baxvka" },
@@ -134,10 +138,6 @@ const WORKS = [
   { category: "readers", pub: 94, code: "86",    level: "C2.2", title: "Clean Slate", status: "published", url: "https://books2read.com/u/47pkBE" },
   { category: "readers", pub: 95, code: "87",    level: "C2.2", title: "Underneath Her Smile", status: "published", url: "https://books2read.com/u/bQoZ7v" },
   { category: "readers", pub: 96, code: "86+87", level: "C2.2", title: "Clean Slate and Underneath Her Smile", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FFN4XCYV" },
-
-  // ---------------- Sexuality (Anwar Zanzibar) ----------------
-  { category: "sexuality", pub: 55, code: "88", title: "Entre Gemidos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0FB9QK8JZ" },
-  { category: "sexuality", pub: 56, code: "89", title: "Behind the Moans", status: "published", url: "https://amazon.es/dp/B0FB525NFB" },
 
   // ---------------- Novellas ----------------
   { category: "novellas", pub: 97,  code: "T03G", title: "Ein Café namens Zuflucht", language: "German", status: "published", url: "https://books2read.com/u/mYJX9W" },
