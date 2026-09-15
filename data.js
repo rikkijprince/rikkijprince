@@ -164,11 +164,11 @@ const WORKS = [
   { category: "thrillers", code: "96S", title: "Los secretos que guardamos", language: "Spanish", status: "ready", url: "" },
 
   // ---------------- Science Fiction ----------------
+  { category: "sci-fi", pub: 120, code: "93", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ" },
   { category: "sci-fi", code: "100", title: "The Universe in Extremis", status: "editing", url: "" },
   { category: "sci-fi", code: "102", title: "The Universe Extra Machina", status: "editing", url: "" },
   { category: "sci-fi", code: "103", title: "The Choir of Dust", status: "editing", url: "" },
-  { category: "sci-fi", pub: 120, code: "93", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ" },
-
+  
   // ---------------- Other Non-Fiction ----------------
   { category: "other-nonfiction", code: "106", title: "How to Live With Risk Without Killing Yourself in the Process", status: "published", url: "" },
   { category: "other-nonfiction", code: "107", title: "The Complete Project Manager's Study Guide", status: "editing", url: "" },
