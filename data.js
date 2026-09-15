@@ -25,7 +25,6 @@ const CATEGORIES = [
   { slug: "sarah-mackay-novels", label: "Sarah Mackay — Novels" },
   { slug: "philosophy", label: "Philosophical Works" },
   { slug: "experimental", label: "Experimental" },
-  { slug: "romantasy", label: "Romantasy — Novellas & Short Stories" },
   { slug: "witchcraft-magic-sexuality", label: "Witchcraft, Magic & Sexuality"},
   { slug: "readers", label: "English Graded Readers" },
   { slug: "novellas", label: "Novellas" },
@@ -72,10 +71,6 @@ const WORKS = [
   { category: "experimental", pub: 41, written: 38, code: "T02",  title: "Murder Undone", note: "novelette", status: "published", url: "https://books2read.com/u/m20OpO" },
   { category: "experimental", pub: 42, written: 40, code: "T01S", title: "Misterio al revés", language: "Spanish", note: "flash fiction · translation of T01", status: "published", url: "https://books2read.com/u/mYkPWx" },
   { category: "experimental", pub: 43, written: 41, code: "T02S", title: "Un crimen por deshacer", language: "Spanish", note: "novelette · translation of T02", status: "published", url: "https://books2read.com/u/bp250q" },
-
-  // ---------------- Romantasy ----------------
-  { category: "romantasy", pub: 38, written: 36, code: "R01", title: "The Never-Ending Question", note: "novella", status: "published", url: "https://books2read.com/u/brEorZ" },
-  { category: "romantasy", pub: 39, written: 42, code: "R02", title: "The Moonfire Pact", note: "novelette", status: "published", url: "https://books2read.com/u/4E0v0e" },
 
   // ---------------- Witchcraft, Magic & Sexuality ----------------
   { category: "witchcraft-magic-sexuality", pub: 44,  written: 47, code: "W1",   title: "Fundamentals of Witchcraft", status: "published", url: "https://books2read.com/u/mZ65GB" },
@@ -138,6 +133,8 @@ const WORKS = [
   { category: "readers", pub: 96,                   level: "C2.2", title: "Clean Slate and Underneath Her Smile", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FFN4XCYV" },
 
   // ---------------- Novellas ----------------
+  { category: "novellas", pub: 38, written: 36, code: "R01", title: "The Never-Ending Question", status: "published", url: "https://books2read.com/u/brEorZ" },
+  { category: "novellas", pub: 39, written: 42, code: "R02", title: "The Moonfire Pact", note: "novelette", status: "published", url: "https://books2read.com/u/4E0v0e" },
   { category: "novellas", pub: 97,  written: "90G", title: "Ein Café namens Zuflucht", language: "German", status: "published", url: "https://books2read.com/u/mYJX9W" },
   { category: "novellas", pub: 98,  written: "90S", title: "Una Cafetería llamada Zuflucht", language: "Spanish", status: "published", url: "https://books2read.com/u/mVJpkA" },
   { category: "novellas", pub: 99,  written: "90F", title: "Un Café Nommé Zuflucht", language: "French", status: "published", url: "https://books2read.com/u/boJR6R" },
