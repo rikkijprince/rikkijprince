@@ -61,6 +61,11 @@
     return isSpanish ? "como " + name : "as " + name;
   }
 
+  function penDotClass(cat) {
+    if (cat.penName === "Anwar Zanzibar") return "dot-zanzibar";
+    return "dot-default";
+  }
+
   function statusGroup(status) {
     return status === "published" ? "published" : "upcoming";
   }
