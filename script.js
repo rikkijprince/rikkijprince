@@ -21,54 +21,16 @@
     "readers": "Lecturas graduadas de inglés"
   };
 
-  const LANGUAGE_LABELS_ES = {
-    English: "Inglés",
-    Spanish: "Español",
-    German: "Alemán",
-    French: "Francés",
-    Italian: "Italiano",
-    Valencian: "Valenciano"
-  };
+  const LANGUAGE_LABELS_ES = { English: "Inglés", Spanish: "Español", German: "Alemán", French: "Francés", Italian: "Italiano", Valencian: "Valenciano" };
+  const NOTE_LABELS_ES = { "flash fiction": "ficción breve", "novelette": "novela corta", "novella": "novela corta", "box set · W1–W3": "edición recopilatoria · W1–W3", "translation of T01": "traducción de T01", "translation of T02": "traducción de T02" };
 
-  const NOTE_LABELS_ES = {
-    "flash fiction": "ficción breve",
-    "novelette": "novela corta",
-    "novella": "novela corta",
-    "box set · W1–W3": "edición recopilatoria · W1–W3",
-    "translation of T01": "traducción de T01",
-    "translation of T02": "traducción de T02"
-  };
-
-  function categoryLabel(cat) {
-    return isSpanish ? (CATEGORY_LABELS_ES[cat.slug] || cat.label) : cat.label;
-  }
-
-  function pluralWorks(n) {
-    if (isSpanish) return n === 1 ? "obra" : "obras";
-    return n === 1 ? "work" : "works";
-  }
-
-  function languageLabel(value) {
-    return isSpanish ? (LANGUAGE_LABELS_ES[value] || value) : value;
-  }
-
-  function noteLabel(value) {
-    if (!isSpanish) return value;
-    return Object.keys(NOTE_LABELS_ES).reduce((text, key) => text.replace(key, NOTE_LABELS_ES[key]), value);
-  }
-
-  function penLabel(name) {
-    return isSpanish ? "como " + name : "as " + name;
-  }
-
-  function penDotClass(cat) {
-    if (cat.penName === "Anwar Zanzibar") return "dot-zanzibar";
-    return "dot-default";
-  }
-
-  function statusGroup(status) {
-    return status === "published" ? "published" : "upcoming";
-  }
+  function categoryLabel(cat) { return isSpanish ? (CATEGORY_LABELS_ES[cat.slug] || cat.label) : cat.label; }
+  function pluralWorks(n) { return isSpanish ? (n === 1 ? "obra" : "obras") : (n === 1 ? "work" : "works"); }
+  function languageLabel(value) { return isSpanish ? (LANGUAGE_LABELS_ES[value] || value) : value; }
+  function noteLabel(value) { return isSpanish ? Object.keys(NOTE_LABELS_ES).reduce((text, key) => text.replace(key, NOTE_LABELS_ES[key]), value) : value; }
+  function penLabel(name) { return isSpanish ? "como " + name : "as " + name; }
+  function penDotClass(cat) { return cat.penName === "Anwar Zanzibar" ? "dot-zanzibar" : "dot-default"; }
+  function statusGroup(status) { return status === "published" ? "published" : "upcoming"; }
 
   function metaParts(work) {
     const parts = [];
@@ -134,11 +96,7 @@
       row.className = "row";
       row.dataset.title = (w.title + " " + (w.code || "") + " " + (w.language || "")).toLowerCase();
       row.dataset.status = statusGroup(w.status);
-      if (hasUrl) {
-        row.href = w.url;
-        row.target = "_blank";
-        row.rel = "noopener noreferrer";
-      }
+      if (hasUrl) { row.href = w.url; row.target = "_blank"; row.rel = "noopener noreferrer"; }
 
       const codeEl = document.createElement("div");
       codeEl.className = "row-code";
@@ -150,6 +108,7 @@
       titleEl.className = "row-title";
       titleEl.textContent = w.title;
       mainEl.appendChild(titleEl);
+
       const parts = metaParts(w);
       if (parts.length) {
         const metaEl = document.createElement("div");
@@ -158,14 +117,14 @@
         mainEl.appendChild(metaEl);
       }
 
-      if (typeof window.descriptionFor === "function") {
-        const description = window.descriptionFor(w, cat);
-        if (description) {
-          const descriptionEl = document.createElement("div");
-          descriptionEl.className = "row-description";
-          descriptionEl.textContent = description;
-          mainEl.appendChild(descriptionEl);
-        }
+      const description = isSpanish && typeof window.descriptionForEs === "function"
+        ? window.descriptionForEs(w, cat)
+        : (typeof window.descriptionFor === "function" ? window.descriptionFor(w, cat) : "");
+      if (description) {
+        const descriptionEl = document.createElement("div");
+        descriptionEl.className = "row-description";
+        descriptionEl.textContent = description;
+        mainEl.appendChild(descriptionEl);
       }
 
       const endEl = document.createElement("div");
@@ -213,7 +172,6 @@
   function applyFilters() {
     const rows = sectionsEl.querySelectorAll(".row");
     let visibleTotal = 0;
-
     rows.forEach((row) => {
       const matchesStatus = currentStatus === "all" || row.dataset.status === currentStatus;
       const matchesQuery = !currentQuery || row.dataset.title.includes(currentQuery);
@@ -221,55 +179,41 @@
       row.classList.toggle("hidden-row", !visible);
       if (visible) visibleTotal++;
     });
-
     sectionsEl.querySelectorAll(".section").forEach((section) => {
       const visibleCount = section.querySelectorAll(".row:not(.hidden-row)").length;
       section.classList.toggle("hidden-section", visibleCount === 0);
       const countEl = section.querySelector(".section-count");
       if (countEl) countEl.textContent = visibleCount + " " + pluralWorks(visibleCount);
     });
-
     tocListEl.querySelectorAll("li").forEach((li) => {
       const link = li.querySelector("a");
-      const slug = link.dataset.slug;
-      const section = document.getElementById(slug);
+      const section = document.getElementById(link.dataset.slug);
       const nEl = link.querySelector(".n");
       if (section && nEl) nEl.textContent = section.querySelectorAll(".row:not(.hidden-row)").length;
       li.style.display = section && section.classList.contains("hidden-section") ? "none" : "";
     });
-
     emptyState.hidden = visibleTotal !== 0;
   }
 
-  searchEl.addEventListener("input", (e) => {
-    currentQuery = e.target.value.trim().toLowerCase();
+  searchEl.addEventListener("input", (e) => { currentQuery = e.target.value.trim().toLowerCase(); applyFilters(); });
+  statusButtons.forEach((btn) => btn.addEventListener("click", () => {
+    statusButtons.forEach((b) => b.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    currentStatus = btn.dataset.status;
     applyFilters();
-  });
-
-  statusButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      statusButtons.forEach((b) => b.classList.remove("is-active"));
-      btn.classList.add("is-active");
-      currentStatus = btn.dataset.status;
-      applyFilters();
-    });
-  });
+  }));
 
   const tocLinks = Array.from(tocListEl.querySelectorAll("a"));
   const sections = Array.from(sectionsEl.querySelectorAll(".section"));
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        const link = tocListEl.querySelector('a[data-slug="' + entry.target.dataset.slug + '"]');
-        if (!link) return;
-        if (entry.isIntersecting) {
-          tocLinks.forEach((l) => l.classList.remove("is-active"));
-          link.classList.add("is-active");
-        }
-      });
-    },
-    { rootMargin: "-10% 0px -75% 0px", threshold: 0 }
-  );
-
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const link = tocListEl.querySelector('a[data-slug="' + entry.target.dataset.slug + '"]');
+      if (!link) return;
+      if (entry.isIntersecting) {
+        tocLinks.forEach((l) => l.classList.remove("is-active"));
+        link.classList.add("is-active");
+      }
+    });
+  }, { rootMargin: "-10% 0px -75% 0px", threshold: 0 });
   sections.forEach((s) => observer.observe(s));
 })();
