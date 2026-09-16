@@ -20,7 +20,7 @@
 
   {% include book-schema.html %}
 </head>
-<body>
+<body class="{% if page.url == '/' or page.url == '/es/' %}page-home{% elsif page.url contains '/rj-academy/' %}page-academy{% elsif page.url contains '/hybrid-english/' %}page-hybrid{% endif %}">
   {% include navbar.html %}
 
   <main class="page-content">
