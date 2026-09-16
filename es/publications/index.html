@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rikki J. Prince — Bibliografía</title>
+<meta name="description" content="Las obras publicadas de Rikki J. Prince: ciencia ficción, thrillers de misterio, aprendizaje de idiomas, filosofía de la ciencia, ocultismo y más.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,0..144,400;1,0..144,500&family=IBM+Plex+Sans:wght@400;0,9..144,500;0,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/publications.css">
+<link rel="stylesheet" href="/assets/css/publications-descriptions.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="nav-logo" href="/es/">Rikki J. Prince</a>
+    <button class="nav-toggle" aria-label="Abrir o cerrar navegación" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="/es/">Inicio</a></li>
+      <li><a href="/es/rj-academy/">RJ Academy</a></li>
+      <li><a href="/es/hybrid-english/">Hybrid English 5.0</a></li>
+      <li><a href="/es/publications/">Publicaciones</a></li>
+    </ul>
+    <a class="language-switch" href="/publications/">Switch to English</a>
+  </div>
+</nav>
+
+<a class="skip-link" href="#catalogue">Ir al catálogo</a>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="kicker">Una bibliografía en desarrollo</p>
+    <h1>Rikki&nbsp;J&nbsp;Prince</h1>
+    <p class="tagline">Las obras publicadas de Rikki J. Prince: novelas de ciencia ficción, thrillers de misterio, aprendizaje de idiomas, filosofía de la ciencia, ocultismo y más.</p>
+    <p class="stats" id="stats">— obras</p>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="toc" aria-label="Colecciones">
+    <div class="toc-inner">
+      <div class="search-box">
+        <input type="search" id="search" placeholder="Buscar títulos, referencias, idiomas…" aria-label="Buscar en la bibliografía">
+      </div>
+      <div class="status-filter" role="group" aria-label="Filtrar por estado">
+        <button class="status-btn is-active" data-status="all">Todas</button>
+        <button class="status-btn" data-status="published">Publicadas</button>
+        <button class="status-btn" data-status="upcoming">Próximas</button>
+      </div>
+      <ul id="toc-list"></ul>
+    </div>
+  </nav>
+
+  <main id="catalogue">
+    <div id="sections"></div>
+    <p id="empty-state" class="empty-state" hidden>No hay resultados que coincidan con la búsqueda.</p>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>Elaborado a partir de una lista actualizada de obras publicadas. El autor recibirá una comisión por los pedidos realizados desde este sitio sin que ello afecte al precio final.</p>
+</footer>
+
+<script>window.PUBLICATIONS_LANG = "es";</script>
+<script src="/publications/data.js"></script>
+<script src="/publications/descriptions.js"></script>
+<script src="/publications/descriptions-es.js"></script>
+<script src="/script.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

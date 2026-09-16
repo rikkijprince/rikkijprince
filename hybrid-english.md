@@ -3,6 +3,7 @@ layout: default
 title: Hybrid English 5.0
 permalink: /hybrid-english/
 description: Hybrid English 5.0 — practical English fluency training combining AI practice with live tutoring.
+lang: en
 ---
 
 # Hybrid English 5.0
