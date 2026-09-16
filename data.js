@@ -48,7 +48,7 @@ const WORKS = [
   { category: "nine-days", written: 12, pub: 19, code: "9D13", title: "Mexico City", status: "published", url: "https://draft2digital.com/book/2638837" },
   { category: "nine-days", written: 13, pub: 21, code: "9D14", title: "Cambridge", status: "published", url: "https://draft2digital.com/book/2643936" },
   { category: "nine-days", written: 14, pub: 22, code: "9D15", title: "Kyoto", status: "published", url: "https://draft2digital.com/book/2825965" },
-  ( category: "nine-days", written: 15,          code: "9D16", title: "Loch Ness", status: "editing"),
+  { category: "nine-days", written: 15,          code: "9D16", title: "Loch Ness", status: "editing" },
    
   // ---------------- Sarah Mackay — Novels ----------------
   { category: "sarah-mackay-novels", written: 17, pub: 25, code: "SMN1", title: "Beijing", status: "published", url: "https://amzn.eu/d/38walHb?tag=rjpamazon-21" },
@@ -58,8 +58,7 @@ const WORKS = [
   { category: "sarah-mackay-novels", written: 21, pub: 35, code: "SMN5", title: "The Frozen Lands", status: "published", url: "https://amazon.es/dp/B0F9X1G4PY?tag=rjpamazon-21" },
 
   // ---------------- Philosophical Works ----------------
-  { category: "philosophy", written: 34, pub: 36,  code: "PH01", title: "What is Existence? — Mind, Matter and Meaning", status: "published", url: "books2read.com/u/mVEWKl
-" },
+  { category: "philosophy", written: 34, pub: 36,  code: "PH01", title: "What is Existence? — Mind, Matter and Meaning", status: "published", url: "https://books2read.com/u/mVEWKl" },
   { category: "philosophy", written: 35, pub: 37, code: "PH02", title: "Eudainomic Flow, or the Art of Flourishing", status: "published", url: "https://books2read.com/u/mexMeA?tag=rjpamazon-21" },
   { category: "philosophy", written: 97, pub: 105, code: "PH04", title: "Constraintism — A Constraint-based Philosophy", status: "published", url: "https://books2read.com/u/bWD1k0" },
   { category: "philosophy", written: 98, pub: 106, code: "PH05", title: "Threshold Ethics", status: "published", url: "https://books2read.com/u/bPPwwj" },
@@ -90,8 +89,7 @@ const WORKS = [
   { category: "readers", written: 62, pub: 59, code: "R09",    level: "A2.1", title: "The Lighthouse Code and Others", note: "bundle", status: "published", url: "https://amazon.es/dp/BOFD7HBPZY?tag=rjpamazon-21" },
   { category: "readers", written: 62, pub: 60, code: "R10",    level: "A2.1", title: "The Street Dog", status: "published", url: "https://books2read.com/u/4E1JAY" },
   { category: "readers", written: 63, pub: 61, code: "R11",    level: "A2.2", title: "The Alley Cat", status: "published", url: "https://books2read.com/u/ba9oN8" },
-  { category: "readers",              pub: 62, code: "R12",    level: "A2", title: "Street Dog and Alley Cat", note: "bundle", status: "published", url: "amazon.es/dp/B0FD7MGR8M?tag=rjpamazon-21" },
-" },
+  { category: "readers",              pub: 62, code: "R12",    level: "A2", title: "Street Dog and Alley Cat", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FD7MGR8M?tag=rjpamazon-21" },
   { category: "readers", written: 64, pub: 63, code: "R13",    level: "A2.2", title: "The House on Silver Street", status: "published", url: "https://books2read.com/u/brLXoe" },
   { category: "readers", written: 65, pub: 64, code: "R14",    level: "A2.2", title: "The Midnight Phone Call", status: "published", url: "https://books2read.com/u/3G6jna" },
   { category: "readers", written: 66, pub: 65, code: "R15",    level: "A2.2", title: "The Window Across the Street", status: "published", url: "https://books2read.com/u/4jQVDv" },
@@ -110,11 +108,11 @@ const WORKS = [
   { category: "readers", written: 75, pub: 78, code: "R28",    level: "B2.1", title: "The Fall of Elias Grey", status: "published", url: "https://books2read.com/u/m0nyDM" },
   { category: "readers", written: 76, pub: 79, code: "R29",    level: "B2.1", title: "Voices from the Deep", status: "published", url: "https://books2read.com/u/4AyqZe" },
   { category: "readers",              pub: 80, code: "R27-29", level: "B2.1", title: "The Disappearing Hour and Others", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FDJPGGCG?tag=rjpamazon-21" },
-  { category: "readers", written: 77, pub: 81, code: "R30",    level: "B2.2", title: "The Hacker Code", status: "published", url: "amazon.es/dp/B0FDGMQN4Y" },
+  { category: "readers", written: 77, pub: 81, code: "R30",    level: "B2.2", title: "The Hacker Code", status: "published", url: "https://amazon.es/dp/B0FDGMQN4Y" },
   { category: "readers", written: 78, pub: 82, code: "R31",    level: "B2.2", title: "The Inheritance Algorithm", status: "published", url: "https://books2read.com/u/mV5GGA" },
   { category: "readers", written: 79, pub: 83, code: "R32",    level: "B2.2", title: "The Island of Secrets", status: "published", url: "https://books2read.com/u/b5Peep" },
   { category: "readers",              pub: 84, code: "R33",    level: "B2.2", title: "The Hacker Code and Other Stories", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FDGMQN4Y?tag=rjpamazon-21" },
-  { category: "readers", written: 80, pub: 85, code: "R34,     level: "C1.1", title: "Eternal Echoes", status: "published", url: "https://books2read.com/u/3yyPQp" },
+  { category: "readers", written: 80, pub: 85, code: "R34",    level: "C1.1", title: "Eternal Echoes", status: "published", url: "https://books2read.com/u/3yyPQp" },
   { category: "readers", written: 81, pub: 86, code: "R35",    level: "C1.1", title: "The Weight of Silence", status: "published", url: "https://books2read.com/u/mgdK5R" },
   { category: "readers",              pub: 87, code: "R36",    level: "C1.1", title: "Eternal Echoes and The Weight of Silence", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FFMZV2VX?tag=rjpamazon-21" },
   { category: "readers", written: 82, pub: 88, code: "R37",    level: "C1.2", title: "The Collapse", status: "published", url: "https://books2read.com/u/3kzZOL" },
@@ -135,7 +133,7 @@ const WORKS = [
   { category: "novellas-flash-fiction", written: 41,    pub: 43,  code: "NFF5",  title: "Un crimen por deshacer", language: "Spanish", note: "novelette · translation of T02", status: "published", url: "https://books2read.com/u/bp250q" },
   { category: "novellas-flash-fiction", written: 36,    pub: 38,  code: "NFF6",  title: "The Never-Ending Question", status: "published", url: "https://books2read.com/u/brEorZ" },
   { category: "novellas-flash-fiction", written: "90G", pub: 97,  code: "NFF7",  title: "Ein Café namens Zuflucht", language: "German", note: "novella", status: "published", url: "https://books2read.com/u/mYJX9W" },
-  { category: "novellas-flash-fiction", written: "90S", pub: 98,  code: "NFF8",  title: "Una Cafetería llamada Zuflucht", language: "Spanish", note: "novella" status: "published", url: "https://books2read.com/u/mVJpkA" },
+  { category: "novellas-flash-fiction", written: "90S", pub: 98,  code: "NFF8",  title: "Una Cafetería llamada Zuflucht", language: "Spanish", note: "novella", status: "published", url: "https://books2read.com/u/mVJpkA" },
   { category: "novellas-flash-fiction", written: "90F", pub: 99,  code: "NFF9",  title: "Un Café Nommé Zuflucht", language: "French", note: "novella", status: "published", url: "https://books2read.com/u/boJR6R" },
   { category: "novellas-flash-fiction", written: "90I", pub: 100, code: "NFF10", title: "Un café chiamato Zuflucht", language: "Italian", note: "novella", status: "published", url: "https://books2read.com/u/bWM9WM" },
   { category: "novellas-flash-fiction", written: "90E", pub: 101, code: "NFF11", title: "A Café called Zuflucht", language: "English", note: "novella", status: "published", url: "https://books2read.com/u/mvQvOq" },
@@ -149,12 +147,12 @@ const WORKS = [
   { category: "language-learning", written: 96,    pub: 111, title: "Automatic Mind — Engineering the Subconscious for Language Mastery", status: "published", url: "https://www.amazon.es/dp/B0H1R23NCY?tag=rjpamazon-21" },
   { category: "language-learning", written: 97,    pub: 113, title: "Speak Naturally! Part 1 (A2–B1)", status: "published", url: "https://www.amazon.es/dp/B0HFSNDD4N?tag=rjpamazon-21" },
   { category: "language-learning", written: 98,    pub: 114, title: "Speak Naturally! Part 2 (B1–B2)", status: "published", url: "https://www.amazon.es/dp/B0HFT8YKG8?tag=rjpamazon-21" },
-  { category: "language-learning", written: 99,    pub: 115,  title: "Speak Naturally! Part 3 (B2–B2+)", status: "published", url: "https://www.amazon.es/dp/B0HF56GBTR9?tag=rjpamazon-21" },
+  { category: "language-learning", written: 99,    pub: 115, title: "Speak Naturally! Part 3 (B2–B2+)", status: "published", url: "https://www.amazon.es/dp/B0HF56GBTR9?tag=rjpamazon-21" },
   { category: "language-learning",                 pub: 116, title: "Speak Naturally! Box Set, Parts 1–3 (A2–B2+)", note: "bundle", status: "published", url: "https://www.amazon.es/dp/B0HFWJY4V3?tag=rjpamazon-21" },
 
   // ---------------- Thrillers ----------------
-  { category: "thrillers", written: 109,    pub 117,  code: "T1",  title: "Bicameral", status: "published", url: "https://www.amazon.com/dp/B0HHFB1291?tag=rjpamazon-21" },
-  { category: "thrillers", written: "109S", pub 118,  code: "T1S", title: "Bicameral", language: "Spanish", status: "published", url: "" },
+  { category: "thrillers", written: 109,    pub: 117,  code: "T1",  title: "Bicameral", status: "published", url: "https://www.amazon.com/dp/B0HHFB1291?tag=rjpamazon-21" },
+  { category: "thrillers", written: "109S", pub: 118,  code: "T1S", title: "Bicameral", language: "Spanish", status: "published", url: "" },
   { category: "thrillers", written: 104,    pub: 119, code: "T2",  title: "The 14th Page", status: "published", url: "https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21" },
   { category: "thrillers", written: 96,               code: "T3",  title: "The Secrets We Keep", status: "ready", url: "" },
   { category: "thrillers", written: "96S",            code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "ready", url: "" },
