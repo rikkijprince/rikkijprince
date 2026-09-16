@@ -34,18 +34,18 @@ const CATEGORIES = [
 
 const WORKS = [
   // ---------------- Novellas & Flash Fiction ----------------
-  { category: "novellas-flash-fiction", written: 42,    pub: 39,  code: "NFF1",  title: "The Moonfire Pact", note: "novelette", status: "published", url: "https://books2read.com/u/4E0v0e" },
-  { category: "novellas-flash-fiction", written: 37,    pub: 40,  code: "NFF2",  title: "Mystery in Reverse", note: "flash fiction", status: "published", url: "https://books2read.com/u/mZkAYy" },
-  { category: "novellas-flash-fiction", written: 38,    pub: 41,  code: "NFF3",  title: "Murder Undone", note: "novelette", status: "published", url: "https://books2read.com/u/m20OpO" },
-  { category: "novellas-flash-fiction", written: 40,    pub: 42,  code: "NFF4",  title: "Misterio al revés", language: "Spanish", note: "flash fiction · translation of T01", status: "published", url: "https://books2read.com/u/mYkPWx" },
-  { category: "novellas-flash-fiction", written: 41,    pub: 43,  code: "NFF5",  title: "Un crimen por deshacer", language: "Spanish", note: "novelette · translation of T02", status: "published", url: "https://books2read.com/u/bp250q" },
-  { category: "novellas-flash-fiction", written: 36,    pub: 38,  code: "NFF6",  title: "The Never-Ending Question", status: "published", url: "https://books2read.com/u/brEorZ" },
-  { category: "novellas-flash-fiction", written: "90G", pub: 97,  code: "NFF7",  title: "Ein Café namens Zuflucht", language: "German", note: "novella", status: "published", url: "https://books2read.com/u/mYJX9W" },
-  { category: "novellas-flash-fiction", written: "90S", pub: 98,  code: "NFF8",  title: "Una Cafetería llamada Zuflucht", language: "Spanish", note: "novella", status: "published", url: "https://books2read.com/u/mVJpkA" },
-  { category: "novellas-flash-fiction", written: "90F", pub: 99,  code: "NFF9",  title: "Un Café Nommé Zuflucht", language: "French", note: "novella", status: "published", url: "https://books2read.com/u/boJR6R" },
-  { category: "novellas-flash-fiction", written: "90I", pub: 100, code: "NFF10", title: "Un café chiamato Zuflucht", language: "Italian", note: "novella", status: "published", url: "https://books2read.com/u/bWM9WM" },
-  { category: "novellas-flash-fiction", written: "90E", pub: 101, code: "NFF11", title: "A Café called Zuflucht", language: "English", note: "novella", status: "published", url: "https://books2read.com/u/mvQvOq" },
-  { category: "novellas-flash-fiction", written: 91,    pub: 102, code: "NFF12", title: "L'Apagada", language: "Valencian", note: "novelette", status: "published", url: "https://books2read.com/u/3ykgNZ" },
+  { category: "novellas-flash-fiction", written: 42,    pub: 39,  code: "NFF5",  title: "The Moonfire Pact", note: "novelette", status: "published", url: "https://books2read.com/u/4E0v0e" },
+  { category: "novellas-flash-fiction", written: 37,    pub: 40,  code: "NFF1",  title: "Mystery in Reverse", note: "flash fiction", status: "published", url: "https://books2read.com/u/mZkAYy" },
+  { category: "novellas-flash-fiction", written: 38,    pub: 41,  code: "NFF2",  title: "Murder Undone", note: "novelette", status: "published", url: "https://books2read.com/u/m20OpO" },
+  { category: "novellas-flash-fiction", written: 40,    pub: 42,  code: "NFF1S", title: "Misterio al revés", language: "Spanish", note: "flash fiction · translation of T01", status: "published", url: "https://books2read.com/u/mYkPWx" },
+  { category: "novellas-flash-fiction", written: 41,    pub: 43,  code: "NFF2S", title: "Un crimen por deshacer", language: "Spanish", note: "novelette · translation of T02", status: "published", url: "https://books2read.com/u/bp250q" },
+  { category: "novellas-flash-fiction", written: 36,    pub: 38,  code: "NFF4",  title: "The Never-Ending Question", status: "published", url: "https://books2read.com/u/brEorZ" },
+  { category: "novellas-flash-fiction", written: "90G", pub: 97,  code: "NFF8G", title: "Ein Café namens Zuflucht", language: "German", note: "novella", status: "published", url: "https://books2read.com/u/mYJX9W" },
+  { category: "novellas-flash-fiction", written: "90S", pub: 98,  code: "NFF8S", title: "Una Cafetería llamada Zuflucht", language: "Spanish", note: "novella", status: "published", url: "https://books2read.com/u/mVJpkA" },
+  { category: "novellas-flash-fiction", written: "90F", pub: 99,  code: "NFF8F", title: "Un Café Nommé Zuflucht", language: "French", note: "novella", status: "published", url: "https://books2read.com/u/boJR6R" },
+  { category: "novellas-flash-fiction", written: "90I", pub: 100, code: "NFF8I", title: "Un café chiamato Zuflucht", language: "Italian", note: "novella", status: "published", url: "https://books2read.com/u/bWM9WM" },
+  { category: "novellas-flash-fiction", written: "90E", pub: 101, code: "NFF8E", title: "A Café called Zuflucht", language: "English", note: "novella", status: "published", url: "https://books2read.com/u/mvQvOq" },
+  { category: "novellas-flash-fiction", written: 91,    pub: 102, code: "NFF9V", title: "L'Apagada", language: "Valencian", note: "novelette", status: "published", url: "https://books2read.com/u/3ykgNZ" },
 
    // ---------------- Science Fiction ----------------
   { category: "sci-fi", written: 93, pub: 120, code: "SF1", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ?tag=rjpamazon-21" },
@@ -55,7 +55,7 @@ const WORKS = [
   
   // ---------------- Thrillers ----------------
   { category: "thrillers", written: 109,    pub: 117, code: "T1",  title: "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind", status: "published", url: "https://www.amazon.com/dp/B0HHFB1291?tag=rjpamazon-21" },
-  { category: "thrillers", written: "109S", pub: 118, code: "T1S", title: "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana", language: "Spanish", status: "published", url: "" },
+  { category: "thrillers", written: "109S", pub: 118, code: "T1S", title: "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana", language: "Spanish", status: "published", url: "https://www.amazon.es/Bicameral-lenguaje-conciencia-orígenes-Spanish-ebook/dp/B0HHFBBKJL?tag=rjpamazon-21" },
   { category: "thrillers", written: 104,    pub: 119, code: "T2",  title: "The 14th Page", status: "published", url: "https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21" },
   { category: "thrillers", written: 96,               code: "T3",  title: "The Secrets We Keep", status: "ready", url: "" },
   { category: "thrillers", written: "96S",            code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "ready", url: "" },
