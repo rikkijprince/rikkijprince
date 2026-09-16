@@ -14,9 +14,37 @@ body {
   background: #fff;
 }
 
+/* Subtle photographic backgrounds for the three main content pages. */
+body.page-home,
+body.page-academy,
+body.page-hybrid {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.page-home {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.88)),
+    url("https://images.unsplash.com/photo-1510297895683-0f27794412d5?auto=format&fit=crop&q=75&w=1800");
+}
+
+body.page-academy {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.91)),
+    url("https://images.unsplash.com/photo-1769794371055-54436b54577e?auto=format&fit=crop&q=75&w=1800");
+}
+
+body.page-hybrid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.90)),
+    url("https://images.unsplash.com/photo-1775807722901-6f7ebc559a40?auto=format&fit=crop&q=75&w=1800");
+}
+
 .navbar {
-  border-bottom: 1px solid #ddd;
-  background: #fff;
+  border-bottom: 1px solid rgba(210, 215, 220, 0.9);
+  background: rgba(255, 255, 255, 0.96);
 }
 
 .nav-container {
@@ -86,8 +114,12 @@ body {
 
 .page-content {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   padding: 3rem 1.5rem 5rem;
+  background: rgba(255, 255, 255, 0.90);
+  border: 1px solid rgba(215, 220, 225, 0.82);
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(30, 45, 60, 0.08);
 }
 
 .page-content img {
@@ -104,7 +136,7 @@ a {
   padding: 2rem;
   border: 1px solid #d8d8d8;
   border-radius: 6px;
-  background: #f8f8f8;
+  background: rgba(248, 248, 248, 0.94);
 }
 
 .contact-box h2 {
@@ -149,6 +181,12 @@ a {
 }
 
 @media (max-width: 700px) {
+  body.page-home,
+  body.page-academy,
+  body.page-hybrid {
+    background-attachment: scroll;
+  }
+
   .nav-container {
     flex-wrap: wrap;
   }
@@ -172,6 +210,12 @@ a {
   .language-switch {
     margin-left: 0;
     order: 3;
+  }
+
+  .page-content {
+    margin-top: 1rem;
+    padding: 2rem 1.1rem 4rem;
+    border-radius: 7px;
   }
 
   .contact-box {
