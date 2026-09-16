@@ -25,11 +25,19 @@
     "Cambridge": "A nine-day seminar on the theoretical foundations of time travel draws Sarah into questions about wormholes, closed time-like curves, paradoxes, and whether time itself can be manipulated.",
     "Kyoto": "In Kyoto, Sarah investigates the nature of time through quantum mechanics, time dilation, and the quantum Zeno effect while confronting difficult questions about science, relationships, and the future.",
 
-    // Experimental
+    // Novellas & Flash Fiction
     "Mystery in Reverse": "A piece of flash fiction built around an unconventional narrative perspective in which the mystery must be understood by moving backwards through events.",
     "Murder Undone": "In a world where time flows backwards, private investigator Elias Vayne investigates a murder that has yet to be committed—and discovers that solving it may be as strange as committing it.",
     "Misterio al revés": "The Spanish edition of Mystery in Reverse, a piece of flash fiction built around an unconventional backwards-moving mystery.",
     "Un crimen por deshacer": "The Spanish edition of Murder Undone, a time-reversed mystery in which a private investigator follows a murder backwards through cause and effect.",
+    "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
+    "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
+    "A Café called Zuflucht": "A fragmented European story of Lukas Weiss and Sol Martínez, whose passionate relationship turns into crime, betrayal, and exile before a small Berlin café offers Sol a possible refuge from the past.",
+    "Ein Café namens Zuflucht": "A German-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "Una Cafetería llamada Zuflucht": "A Spanish-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "Un Café Nommé Zuflucht": "A French-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "Un café chiamato Zuflucht": "An Italian-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "L'Apagada": "A novelette exploring disappearance, memory, and the emotional consequences of a sudden break with the past.",
 
     // Witchcraft, Magic & Sexuality
     "Fundamentals of Witchcraft": "An introduction to the foundations of witchcraft and magick, providing a structured starting point for readers developing their understanding and practice.",
@@ -40,10 +48,21 @@
     "Practical Guide to Witchcraft & Chaos Magick": "A practical introduction to witchcraft and chaos magick, combining traditional magical concepts with an experimental approach to belief, symbolism, ritual, and personal practice.",
     "Entre Gemidos": "A Spanish-language exploration of the science and psychology of sexual pleasure, examining desire, arousal, the body, and the factors that shape intimate experience.",
     "Behind the Moans": "An accessible exploration of the science of pleasure, examining the physical, psychological, and emotional dimensions of sexual experience.",
-    "Desire and Dennuciation": "A History of Sex Magic from Ancient Temples to Modern Witchcraft"
-    "Re-Enchantment of the Body": "The Hidden History of Sex, Magic, and the Sacred Body"
-     
-    // RJP Readers
+    "Desire and Denunciation": "A history of sex magic from ancient temples to modern witchcraft.",
+    "Re-Enchantment of the Body": "The hidden history of sex, magic, and the sacred body.",
+
+    // Language learning
+    "How to Overcome Any Obstacle to Studying": "A practical, research-informed guide to overcoming psychological, emotional, physical, and digital barriers to learning, with strategies for attention, motivation, anxiety, perfectionism, and effective study.",
+    "Cómo superar cualquier obstáculo para estudiar": "The Spanish edition of How to Overcome Any Obstacle to Studying, offering practical strategies for overcoming the psychological, emotional, physical, and digital barriers to learning.",
+    "Comment surmonter tout obstacle à l'étude": "The French edition of How to Overcome Any Obstacle to Studying, offering practical strategies for overcoming the psychological, emotional, physical, and digital barriers to learning.",
+    "Technical English in 2026": "A practical upper-intermediate coursebook for technical and engineering English, covering modern industry, robotics, PLCs, digital twins, manufacturing, sustainability, project management, and professional communication.",
+    "Automatic Mind — Engineering the Subconscious for Language Mastery": "A practical exploration of how automatic mental processes can be trained and used to support language learning, fluency, memory, and more natural communication.",
+    "Speak Naturally! Part 1 (A2–B1)": "A practical speaking course taking learners from A2 towards B1 through realistic conversations, vocabulary, pronunciation practice, role-play, communication challenges, and fluency activities.",
+    "Speak Naturally! Part 2 (B1–B2)": "The second stage of Speak Naturally!, developing B1–B2 speaking through conversations and activities covering health, travel, culture, nature, science, and the environment.",
+    "Speak Naturally! Part 3 (B2–B2+)": "The advanced stage of Speak Naturally!, developing B2–B2+ speaking through discussion, debate, negotiation, and presentation on business, media, society, global issues, and personal development.",
+    "Speak Naturally! Box Set, Parts 1–3 (A2–B2+)": "The complete three-part Speak Naturally! speaking course, taking learners from A2 to B2+ through 96 lessons focused on real conversations, vocabulary, pronunciation, fluency, discussion, negotiation, and presentation.",
+
+    // RJP Readers — keys omit the CEFR prefix; lookup below preserves the displayed title.
     "Max the Brave": "An A1.1 reader about Max, a young hero who faces a small but important challenge and discovers that courage can take many forms.",
     "The Runaway Robot": "An A1.1 reader about a lonely inventor whose small AI robot runs away to explore the city and learns about people, danger, and friendship.",
     "Max the Brave and The Runaway": "A beginner-level collection bringing together Max the Brave and The Runaway Robot.",
@@ -91,39 +110,32 @@
     "Underneath Her Smile": "A C2.2 psychological story about Liv and Mason, an apparently perfect internet couple whose glamorous public image hides a far more complicated private reality.",
     "Clean Slate and Underneath Her Smile": "A collection of two C2.2 stories exploring identity, reinvention, relationships, and the difference between appearance and reality.",
 
-    // Novellas
-    "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
-    "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
-    "A Café called Zuflucht": "A fragmented European story of Lukas Weiss and Sol Martínez, whose passionate relationship turns into crime, betrayal, and exile before a small Berlin café offers Sol a possible refuge from the past.",
-    "Ein Café namens Zuflucht": "A German-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Una Cafetería llamada Zuflucht": "A Spanish-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Un Café Nommé Zuflucht": "A French-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Un café chiamato Zuflucht": "An Italian-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "L'Apagada": "A novelette exploring disappearance, memory, and the emotional consequences of a sudden break with the past.",
-
-    // Language learning
-    "How to Overcome Any Obstacle to Studying": "A practical, research-informed guide to overcoming psychological, emotional, physical, and digital barriers to learning, with strategies for attention, motivation, anxiety, perfectionism, and effective study.",
-    "Cómo superar cualquier obstáculo para estudiar": "The Spanish edition of How to Overcome Any Obstacle to Studying, offering practical strategies for overcoming the psychological, emotional, physical, and digital barriers to learning.",
-    "Comment surmonter tout obstacle à l'étude": "The French edition of How to Overcome Any Obstacle to Studying, offering practical strategies for overcoming the psychological, emotional, physical, and digital barriers to learning.",
-    "Technical English in 2026": "A practical upper-intermediate coursebook for technical and engineering English, covering modern industry, robotics, PLCs, digital twins, manufacturing, sustainability, project management, and professional communication.",
-    "Automatic Mind — Engineering the Subconscious for Language Mastery": "A practical exploration of how automatic mental processes can be trained and used to support language learning, fluency, memory, and more natural communication.",
-    "Speak Naturally! Part 1 (A2–B1)": "A practical speaking course taking learners from A2 towards B1 through realistic conversations, vocabulary, pronunciation practice, role-play, communication challenges, and fluency activities.",
-    "Speak Naturally! Part 2 (B1–B2)": "The second stage of Speak Naturally!, developing B1–B2 speaking through conversations and activities covering health, travel, culture, nature, science, and the environment.",
-    "Speak Naturally! Part 3 (B2–B2+)": "The advanced stage of Speak Naturally!, developing B2–B2+ speaking through discussion, debate, negotiation, and presentation on business, media, society, global issues, and personal development.",
-    "Speak Naturally! Box Set, Parts 1–3 (A2–B2+)": "The complete three-part Speak Naturally! speaking course, taking learners from A2 to B2+ through 96 lessons focused on real conversations, vocabulary, pronunciation, fluency, discussion, negotiation, and presentation.",
-
     // Thrillers
+    "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind": "Dr. Noor Kessler investigates an ancient chamber in Malta that reproduces a phenomenon her patients experience as a broken signal in the brain, leading her from Neolithic archaeology and current neuroscience to a dangerous discovery about the architecture of the human mind—and those who want to control it.",
+    "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana": "La Dra. Noor Kessler investiga una antigua cámara en Malta que reproduce un fenómeno que sus pacientes experimentan como una señal averiada en el cerebro, llevándola desde la arqueología neolítica y la neurociencia actual hasta un peligroso descubrimiento sobre la arquitectura de la mente humana y quienes quieren controlarla.",
     "The 14th Page": "A psychological mystery built around a disturbing discovery on the fourteenth page of a book, where an apparently ordinary object becomes the beginning of a much larger mystery.",
+    "The Secrets We Keep": "A thriller about hidden truths, personal secrets, and the consequences that follow when what people keep concealed can no longer remain buried.",
+    "Los secretos que guardamos": "La edición española de The Secrets We Keep, un thriller sobre secretos ocultos y las consecuencias de aquello que ya no puede permanecer enterrado.",
 
     // Science fiction
-    "A Codex of Observations on Humanity": "An intelligence called The Child observes humanity through impossible questions about love, violence, fear, and death—until observation becomes something it was never built to feel."
+    "A Codex of Observations on Humanity": "An intelligence called The Child observes humanity through impossible questions about love, violence, fear, and death—until observation becomes something it was never built to feel.",
+    "The Universe in Extremis": "In 2523, six cosmonauts and an android navigator travel beyond the Solar System to investigate five black holes and seek an answer to a five-century-old question about the nature of the universe. Grounded in real relativity and astrophysics, the mission becomes a struggle with betrayal, fractured loyalties, and an increasingly unreliable account of what really happened.",
+    "The Universe Extra Machina": "Five years after the Starlight Aurora One returns, physicist Mia Faruq discovers an impossible discrepancy in humanity's wormhole network. Her investigation leads a group of scientists on a fifty-year journey towards the limits of information, reality, and the universe itself, while unfinished business from the first expedition follows them into the distant future.",
+    "The Choir of Dust": "In a world where emotion has been rationed for thirty years, archivist Serina Dalvin discovers that the Ministry's vast collection of suppressed feelings is beginning to awaken. Pursued by the architects of the system, Serina and fellow archivist Simon Drell uncover a buried discovery that could transform humanity—and ultimately give rise to a new kind of consciousness."
   };
 
   function descriptionFor(work, category) {
     const label = category ? category.label : "";
 
-    if (SHORT_DESCRIPTIONS[work.title]) {
-      return SHORT_DESCRIPTIONS[work.title];
+    // Readers keep the CEFR level in the published/displayed title.
+    // Strip only that prefix for description lookup; the title itself is untouched.
+    let lookupTitle = work.title;
+    if (work.category === "readers") {
+      lookupTitle = lookupTitle.replace(/^(?:A1\.1|A1\.2|A2\.1|A2\.2|B1|B1\.1|B1\.2|B2\.1|B2\.2|C1\.1|C1\.2|C2\.1|C2\.2)\s+/, "");
+    }
+
+    if (SHORT_DESCRIPTIONS[lookupTitle]) {
+      return SHORT_DESCRIPTIONS[lookupTitle];
     }
 
     // Major Sarah Mackay novels
@@ -164,20 +176,17 @@
     }
 
     // Category fallbacks
-    if (label === "RJP Readers") {
+    if (label === "English Graded Readers") {
       return "An accessible English reader designed to develop reading fluency through an engaging contemporary story.";
     }
-    if (label === "Sarah Mackay — Short Stories") {
+    if (label === "Sarah Mackay — Nine Days Series") {
       return "A short scientific adventure in the Sarah Mackay series, combining contemporary physics with personal and human questions.";
     }
     if (label === "Sarah Mackay — Novels") {
       return "A Sarah Mackay novel combining scientific ideas, investigation, personal relationships, and contemporary events.";
     }
-    if (label === "Philosophy") {
+    if (label === "Philosophical Works") {
       return "A philosophical exploration of fundamental questions about reality, knowledge, consciousness, ethics, and human existence.";
-    }
-    if (label === "Experimental") {
-      return "An experimental work exploring an unconventional narrative structure, perspective, or philosophical idea.";
     }
     if (label === "Witchcraft, Magic & Sexuality") {
       return "A practical exploration of symbolism, ritual, belief, and personal practice.";
@@ -191,7 +200,7 @@
     if (label === "Science Fiction") {
       return "A speculative exploration of technology, humanity, reality, or the consequences of ideas taken beyond the familiar world.";
     }
-    if (label === "Novellas") {
+    if (label === "Novellas & Flash Fiction") {
       return "A compact work of fiction exploring relationships, identity, memory, and the consequences of human choices.";
     }
     return "A publication by Rikki J. Prince.";
