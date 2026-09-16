@@ -114,6 +114,17 @@
         mainEl.appendChild(metaEl);
       }
 
+      // Publication description
+      if (typeof window.descriptionFor === "function") {
+        const description = window.descriptionFor(w, cat);
+        if (description) {
+          const descriptionEl = document.createElement("div");
+          descriptionEl.className = "row-description";
+          descriptionEl.textContent = description;
+          mainEl.appendChild(descriptionEl);
+        }
+      }
+
       const endEl = document.createElement("div");
       endEl.className = "row-end";
       if (w.status === "ready") {
