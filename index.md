@@ -3,6 +3,7 @@ layout: default
 title: "Rikki J Prince — Welcome"
 description: "English language learning, science-based literature, reflective thinking, and some science-fiction."
 permalink: /
+lang: en
 ---
 
 # Rikki J Prince
