@@ -8,11 +8,30 @@
       <span class="bar"></span>
     </button>
 
-    <ul class="nav-links">
-      <li><a href="{{ '/' | relative_url }}">Welcome</a></li>
-      <li><a href="{{ '/rj-academy/' | relative_url }}">RJ Academy</a></li>
-      <li><a href="{{ '/hybrid-english/' | relative_url }}">Hybrid English 5.0</a></li>
-      <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
-    </ul>
+    {% if page.lang == 'es' %}
+      <ul class="nav-links">
+        <li><a href="{{ '/es/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/es/rj-academy/' | relative_url }}">RJ Academy</a></li>
+        <li><a href="{{ '/es/hybrid-english/' | relative_url }}">Hybrid English 5.0</a></li>
+        <li><a href="{{ '/es/publications/' | relative_url }}">Publicaciones</a></li>
+      </ul>
+      {% assign language_url = '/' %}
+      {% if page.url == '/es/rj-academy/' %}{% assign language_url = '/rj-academy/' %}{% endif %}
+      {% if page.url == '/es/hybrid-english/' %}{% assign language_url = '/hybrid-english/' %}{% endif %}
+      {% if page.url == '/es/publications/' %}{% assign language_url = '/publications/' %}{% endif %}
+      <a class="language-switch" href="{{ language_url | relative_url }}">Switch to English</a>
+    {% else %}
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Welcome</a></li>
+        <li><a href="{{ '/rj-academy/' | relative_url }}">RJ Academy</a></li>
+        <li><a href="{{ '/hybrid-english/' | relative_url }}">Hybrid English 5.0</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+      </ul>
+      {% assign language_url = '/es/' %}
+      {% if page.url == '/rj-academy/' %}{% assign language_url = '/es/rj-academy/' %}{% endif %}
+      {% if page.url == '/hybrid-english/' %}{% assign language_url = '/es/hybrid-english/' %}{% endif %}
+      {% if page.url == '/publications/' %}{% assign language_url = '/es/publications/' %}{% endif %}
+      <a class="language-switch" href="{{ language_url | relative_url }}">Cambia al español</a>
+    {% endif %}
   </div>
 </nav>
