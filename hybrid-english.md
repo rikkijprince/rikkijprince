@@ -8,7 +8,7 @@ lang: en
 
 # Hybrid English 5.0
 
-Hybrid English 5.0 is the English fluency training system developed by Rikki J Prince, combining AI conversation practice with support from a live English tutor.
+Hybrid English 5.0 is the English fluency training system developed by Rikki J. Prince, combining AI conversation practice with support from a live English tutor.
 
 The existing Hybrid English service is currently hosted separately from this main website.
 
