@@ -40,11 +40,11 @@ const WORKS = [
   { category: "novellas-flash-fiction", written: 40,    pub: 42,  code: "NFF1S", title: "Misterio al revés", language: "Spanish", note: "flash fiction · translation of T01", status: "published", url: "https://books2read.com/u/mYkPWx" },
   { category: "novellas-flash-fiction", written: 41,    pub: 43,  code: "NFF2S", title: "Un crimen por deshacer", language: "Spanish", note: "novelette · translation of T02", status: "published", url: "https://books2read.com/u/bp250q" },
   { category: "novellas-flash-fiction", written: 36,    pub: 38,  code: "NFF4",  title: "The Never-Ending Question", status: "published", url: "https://books2read.com/u/brEorZ" },
+  { category: "novellas-flash-fiction", written: "90",  pub: 101, code: "NFF8",  title: "A Café called Zuflucht", language: "English", note: "novella", status: "published", url: "https://books2read.com/u/mvQvOq" },
   { category: "novellas-flash-fiction", written: "90G", pub: 97,  code: "NFF8G", title: "Ein Café namens Zuflucht", language: "German", note: "novella", status: "published", url: "https://books2read.com/u/mYJX9W" },
   { category: "novellas-flash-fiction", written: "90S", pub: 98,  code: "NFF8S", title: "Una Cafetería llamada Zuflucht", language: "Spanish", note: "novella", status: "published", url: "https://books2read.com/u/mVJpkA" },
   { category: "novellas-flash-fiction", written: "90F", pub: 99,  code: "NFF8F", title: "Un Café Nommé Zuflucht", language: "French", note: "novella", status: "published", url: "https://books2read.com/u/boJR6R" },
   { category: "novellas-flash-fiction", written: "90I", pub: 100, code: "NFF8I", title: "Un café chiamato Zuflucht", language: "Italian", note: "novella", status: "published", url: "https://books2read.com/u/bWM9WM" },
-  { category: "novellas-flash-fiction", written: "90E", pub: 101, code: "NFF8E", title: "A Café called Zuflucht", language: "English", note: "novella", status: "published", url: "https://books2read.com/u/mvQvOq" },
   { category: "novellas-flash-fiction", written: 91,    pub: 102, code: "NFF9V", title: "L'Apagada", language: "Valencian", note: "novelette", status: "published", url: "https://books2read.com/u/3ykgNZ" },
 
    // ---------------- Science Fiction ----------------
