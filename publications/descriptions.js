@@ -32,11 +32,11 @@
     "Un crimen por deshacer": "The Spanish edition of Murder Undone, a time-reversed mystery in which a private investigator follows a murder backwards through cause and effect.",
     "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
     "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
-    "A Café called Zuflucht": "A fragmented European story of Lukas Weiss and Sol Martínez, whose passionate relationship turns into crime, betrayal, and exile before a small Berlin café offers Sol a possible refuge from the past.",
-    "Ein Café namens Zuflucht": "A German-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Una Cafetería llamada Zuflucht": "A Spanish-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Un Café Nommé Zuflucht": "A French-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Un café chiamato Zuflucht": "An Italian-language edition of A Café called Zuflucht, a fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "A Café called Zuflucht": "A fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "Ein Café namens Zuflucht": "German-language edition of A Café called Zuflucht.",
+    "Una Cafetería llamada Zuflucht": "Spanish-language edition of A Café called Zuflucht.",
+    "Un Café Nommé Zuflucht": "French-language edition of A Café called Zuflucht.",
+    "Un café chiamato Zuflucht": "Italian-language edition of A Café called Zuflucht.",
     "L'Apagada": "A novelette exploring disappearance, memory, and the emotional consequences of a sudden break with the past.",
 
     // Witchcraft, Magic & Sexuality
