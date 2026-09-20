@@ -105,6 +105,44 @@
     "Underneath Her Smile": "Una historia psicológica C2.2 sobre Liv y Mason, una pareja aparentemente perfecta en internet cuya imagen pública y glamurosa oculta una realidad privada mucho más complicada."
   };
 
+    // Sarah Mackay Novels
+    if (work.title === "Beijing") {
+      return "La primera novela de Sarah Mackay: una joven estudiante escocesa viaja a Pekín para realizar unas prácticas sobre IA en la Universidad de Tsinghua y se ve envuelta en tramas de vigilancia, un proyecto experimental de IA y el dilema ético entre predicción y control.";
+    }
+    if (work.title === "Vatican & Moony Conspiracies") {
+      return "Sarah Mackay investiga una conspiración que se extiende desde el Vaticano hasta la Luna, combinando conceptos científicos, intriga política y una carrera contrarreloj para descubrir la verdad.";
+    }
+    if (work.title === "Quantum Supremacy") {
+      "Sarah Mackay se enfrenta a las implicaciones de la tecnología cuántica en un escenario donde chocan la ambición científica, el poder y las relaciones humanas.";
+    }
+    if (work.title === "Gaza & Sudan") {
+      return "Sarah Mackay se ve inmersa en las consecuencias humanas y políticas de los conflictos en Gaza y Sudán, donde la ciencia, el poder y la responsabilidad personal se vuelven inseparables.";
+    }
+    if (work.title === "The Frozen Lands") {
+      return "Sarah Mackay viaja a un paisaje helado cada vez más peligroso, donde convergen la investigación científica, la supervivencia y motivos ocultos.";
+    }
+
+    // Philosophical Works
+    if (work.title === "What is Existence? — Mind, Matter and Meaning") {
+      return "Una investigación filosófica accesible sobre la existencia, que explora la materia, la mente, la conciencia, el sentido y la relación entre la explicación científica y la experiencia humana.";
+    }
+    if (work.title === "Eudainomic Flow, or the Art of Flourishing") {
+      return "Una exploración filosófica sobre el florecimiento humano que examina cómo las personas pueden construir vidas dotadas de sentido, equilibrio, propósito y bienestar duradero.";
+    }
+    if (work.title === "Constraintism — A Constraint-based Philosophy") {
+      return "Un marco filosófico que propone que las restricciones —más que los objetos o eventos aislados— ofrecen una vía poderosa para comprender la realidad, el conocimiento y la acción humana.";
+    }
+    if (work.title === "Threshold Ethics") {
+      return "Un marco ético centrado en los umbrales: aquellos puntos en los que las decisiones, los riesgos, las responsabilidades y las consecuencias adquieren relevancia moral.";
+    }
+    if (work.title === "Patterns That Matter") {
+      return "Una investigación filosófica sobre los patrones, la trascendencia y las formas en que la estructura y el sentido emergen de la complejidad de la existencia.";
+    }
+    if (work.title === "The Symphony of Existence — From the Big Bang to the Illusion of Time") {
+      return "Un viaje filosófico que va de la cosmología a la conciencia, planteando cómo la materia, el tiempo, la estructura y la experiencia se combinan para generar la realidad que habitamos.";
+    }
+
+
   const CATEGORY_FALLBACKS_ES = {
     "novellas-flash-fiction": "Una obra breve de ficción de Rikki J Prince.",
     "sci-fi": "Una obra de ciencia ficción que explora ideas sobre la humanidad, la tecnología, la realidad o el futuro.",
