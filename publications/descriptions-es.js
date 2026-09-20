@@ -105,6 +105,20 @@
     "Underneath Her Smile": "Una historia psicológica C2.2 sobre Liv y Mason, una pareja aparentemente perfecta en internet cuya imagen pública y glamurosa oculta una realidad privada mucho más complicada."
   };
 
+  function descriptionFor(work, category) {
+    const label = category ? category.label : "";
+
+    // Readers keep the CEFR level in the published/displayed title.
+    // Strip only that prefix for description lookup; the title itself is untouched.
+    let lookupTitle = work.title;
+    if (work.category === "readers") {
+      lookupTitle = lookupTitle.replace(/^(?:A1\.1|A1\.2|A2\.1|A2\.2|B1|B1\.1|B1\.2|B2\.1|B2\.2|C1\.1|C1\.2|C2\.1|C2\.2)\s+/, "");
+    }
+
+    if (SHORT_DESCRIPTIONS[lookupTitle]) {
+      return SHORT_DESCRIPTIONS[lookupTitle];
+    }
+
     // Sarah Mackay Novels
     if (work.title === "Beijing") {
       return "La primera novela de Sarah Mackay: una joven estudiante escocesa viaja a Pekín para realizar unas prácticas sobre IA en la Universidad de Tsinghua y se ve envuelta en tramas de vigilancia, un proyecto experimental de IA y el dilema ético entre predicción y control.";
@@ -141,6 +155,7 @@
     if (work.title === "The Symphony of Existence — From the Big Bang to the Illusion of Time") {
       return "Un viaje filosófico que va de la cosmología a la conciencia, planteando cómo la materia, el tiempo, la estructura y la experiencia se combinan para generar la realidad que habitamos.";
     }
+  })();
 
 
   const CATEGORY_FALLBACKS_ES = {
