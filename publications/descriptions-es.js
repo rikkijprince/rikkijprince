@@ -23,10 +23,22 @@
     "Una cafetería llamada Zuflucht": "Una historia fragmentada de amor, crimen, traición, exilio y la posibilidad de la redención.",
     "A Café called Zuflucht": "Edición en inglés de Una cafetería llamada Zuflucht.",
     "Ein Café namens Zuflucht": "Edición en alemán de Una cafetería llamada Zuflucht.",
-    "Un café nommé Zuflucht": "Edición en francés de Una cafetería llamada Zuflucht,
-    "Un café chiamato Zuflucht": "Edición en italiano de Una cafetería llamada Zuflucht",
+    "Un café nommé Zuflucht": "Edición en francés de Una cafetería llamada Zuflucht.",
+    "Un café chiamato Zuflucht": "Edición en italiano de Una cafetería llamada Zuflucht.",
+     
   // --------------------- Science Fiction --------------------
+    "A Codex of Observations on Humanity": "Una inteligencia llamada El Niño observa a la humanidad a través de preguntas imposibles sobre el amor, la violencia, el miedo y la muerte, hasta que la observación se transforma en algo que nunca fue diseñada para sentir.",
+    "The Universe in Extremis": "En el año 2523, seis cosmonautas y un navegante androide viajan más allá del sistema solar para investigar cinco agujeros negros y buscar respuesta a una pregunta de cinco siglos de antigüedad sobre la naturaleza del universo. Basada en principios reales de relatividad y astrofísica, la misión se convierte en una lucha marcada por la traición, las lealtades fracturadas y un relato cada vez menos fiable de lo que realmente sucedió.",
+    "The Universe Extra Machina": "Cinco años después del regreso de la *Starlight Aurora One*, la física Mia Faruq descubre una discrepancia imposible en la red de agujeros de gusano de la humanidad. Su investigación embarca a un grupo de científicos en una odisea de cincuenta años hacia los límites de la información, la realidad y el propio universo, mientras asuntos pendientes de la primera expedición los persiguen hasta un futuro lejano.",
+    "The Choir of Dust": "En un mundo donde las emociones han sido racionadas durante treinta años, la archivista Serina Dalvin descubre que la vasta colección de sentimientos reprimidos del Ministerio está empezando a despertar. Perseguidos por los arquitectos del sistema, Serina y su colega Simon Drell sacan a la luz un descubrimiento oculto que podría transformar a la humanidad y, en última instancia, dar origen a una nueva forma de conciencia."
+
   // ------------------------ Thrillers -----------------------
+    "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana": "La Dra. Noor Kessler investiga una antigua cámara en Malta que reproduce un fenómeno que sus pacientes experimentan como una señal averiada en el cerebro, llevándola desde la arqueología neolítica y la neurociencia actual hasta un peligroso descubrimiento sobre la arquitectura de la mente humana y quienes quieren controlarla.",
+    "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind": "La edición inglesa de la novela.”
+"The 14th Page": "Un misterio psicológico construido en torno a un descubrimiento inquietante en la decimocuarta página de un libro, donde un objeto aparentemente común se convierte en el inicio de un misterio mucho mayor.",
+    "Los secretos que guardamos": "Un thriller sobre verdades ocultas, secretos personales y las consecuencias que surgen cuando aquello que la gente mantiene oculto ya no puede permanecer enterrado.",
+    "The Secrets We Keep": "La edición inglesa de la novela.",
+   
   // ------------- Sarah Mackay - Nine Days Series ------------
   // ---------------- Sarah Mackay - Novels -------------------
   // ----------------- Philosophical Works --------------------
