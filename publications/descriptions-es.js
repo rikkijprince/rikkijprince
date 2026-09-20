@@ -155,8 +155,6 @@
     if (work.title === "The Symphony of Existence — From the Big Bang to the Illusion of Time") {
       return "Un viaje filosófico que va de la cosmología a la conciencia, planteando cómo la materia, el tiempo, la estructura y la experiencia se combinan para generar la realidad que habitamos.";
     }
-  })();
-
 
   const CATEGORY_FALLBACKS_ES = {
     "novellas-flash-fiction": "Una obra breve de ficción de Rikki J Prince.",
