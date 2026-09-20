@@ -35,14 +35,29 @@
   // ------------------------ Thrillers -----------------------
     "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana": "La Dra. Noor Kessler investiga una antigua cámara en Malta que reproduce un fenómeno que sus pacientes experimentan como una señal averiada en el cerebro, llevándola desde la arqueología neolítica y la neurociencia actual hasta un peligroso descubrimiento sobre la arquitectura de la mente humana y quienes quieren controlarla.",
     "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind": "La edición inglesa de la novela.”
-"The 14th Page": "Un misterio psicológico construido en torno a un descubrimiento inquietante en la decimocuarta página de un libro, donde un objeto aparentemente común se convierte en el inicio de un misterio mucho mayor.",
+    "The 14th Page": "Un misterio psicológico construido en torno a un descubrimiento inquietante en la decimocuarta página de un libro, donde un objeto aparentemente común se convierte en el inicio de un misterio mucho mayor.",
     "Los secretos que guardamos": "Un thriller sobre verdades ocultas, secretos personales y las consecuencias que surgen cuando aquello que la gente mantiene oculto ya no puede permanecer enterrado.",
     "The Secrets We Keep": "La edición inglesa de la novela.",
    
   // ------------- Sarah Mackay - Nine Days Series ------------
-  // ---------------- Sarah Mackay - Novels -------------------
-  // ----------------- Philosophical Works --------------------
+    "Geneva": "La primera aventura científica de Sarah Mackay la lleva al CERN para una intensa inmersión en la física de partículas, donde la incertidumbre cuántica comienza a difuminar la frontera entre la ciencia, el misterio y el descubrimiento personal.",
+    "Istanbul": "Un grupo de jóvenes físicos se reúne en Estambul para una inmersión de nueve días en la gravedad cuántica, donde complejas cuestiones sobre el espacio y la realidad se entremezclan con rivalidades, romances e incertidumbres personales.",
+    "Prague": "El viaje por la gravedad cuántica continúa en Praga; allí, Sarah y sus colegas se enfrentan a interrogantes más profundos sobre la realidad, mientras las tensiones en las amistades y las rivalidades se vuelven cada vez más difíciles de contener.",
+    "Paris": "Sarah Mackay explora la teoría del caos en París, investigando si la realidad misma podría entenderse como una red caótica de posibilidades lógicas.",
+    "Florence": "En Florencia, Sarah prosigue su exploración de la teoría del caos, enfrentándose a fractales, sistemas complejos y a las tensiones personales que acompañan su búsqueda de un orden subyacente en la naturaleza.",
+    "Copenhagen": "Sarah Mackay se adentra en la mecánica cuántica en Copenhague, explorando el extraño comportamiento de la materia y las implicaciones que este conlleva para su creciente comprensión de la realidad.",
+    "Bern": "En Berna, Sarah y un grupo de estudiantes actuales exploran la relatividad especial en la ciudad donde Einstein desarrolló sus ideas revolucionarias, conectando las matemáticas del espacio-tiempo con la historia humana que las sustenta.",
+    "Berlin": "Sarah Mackay viaja a Berlín para una exploración intensiva de la relatividad general, combinando las matemáticas del espacio-tiempo y la gravedad con la historia de Einstein y la convulsa realidad de la Europa contemporánea.",
+    "Oxford": "En Oxford, Sarah investiga si la geometría podría ser la clave para comprender la realidad, explorando el espacio-tiempo, la simetría, la teoría de los twistores y los agujeros negros.",
+    "Princeton": "Sarah Mackay explora la posibilidad de que la información, y no la materia, constituya la base de la realidad, abordando cuestiones sobre mecánica cuántica, conciencia y la naturaleza del universo.",
+    "Nueva York": "Sarah deja atrás la física teórica para realizar un curso de nueve días de formación en investigación privada en Nueva York, donde aprende técnicas de vigilancia, métodos forenses y la lógica impredecible del comportamiento humano.",
+    "Ciudad de México": "Sarah estudia ciencias forenses en Ciudad de México mientras se convierte en el objetivo de una organización enigmática, lo que la obliga a combinar el razonamiento científico, la investigación y la supervivencia.",
+    "Cambridge": "Un seminario de nueve días sobre los fundamentos teóricos de los viajes en el tiempo lleva a Sarah a plantearse cuestiones sobre agujeros de gusano, curvas temporales cerradas, paradojas y la posibilidad de manipular el tiempo mismo.",
+    "Kioto": "En Kioto, Sarah investiga la naturaleza del tiempo a través de la mecánica cuántica, la dilatación temporal y el efecto cuántico de Zenón, al tiempo que se enfrenta a interrogantes complejos sobre la ciencia, las relaciones personales y el futuro.",
 
+  // ---------------- Sarah Mackay - Novels -------------------
+     
+  // ----------------- Philosophical Works --------------------
      
   // ------------- Witchcraft, Magic & Sexuality --------------
     "Entre Gemidos": "Una exploración en español de la ciencia y la psicología del placer sexual, que examina el deseo, la excitación, el cuerpo y los factores que influyen en la experiencia íntima.",
