@@ -9,7 +9,34 @@
   "use strict";
 
   const SHORT_DESCRIPTIONS = {
-    // Sarah Mackay — short stories
+    // Novellas & Flash Fiction
+    "Mystery in Reverse": "A piece of flash fiction built around an unconventional narrative perspective in which the mystery must be understood by moving backwards through events.",
+    "Murder Undone": "In a world where time flows backwards, private investigator Elias Vayne investigates a murder that has yet to be committed—and discovers that solving it may be as strange as committing it.",
+    "Misterio al revés": "The Spanish edition of Mystery in Reverse, a piece of flash fiction built around an unconventional backwards-moving mystery.",
+    "Un crimen por deshacer": "The Spanish edition of Murder Undone, a time-reversed mystery in which a private investigator follows a murder backwards through cause and effect.",
+    "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
+    "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
+    "A Café called Zuflucht": "A fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
+    "Ein Café namens Zuflucht": "German-language edition of A Café called Zuflucht.",
+    "Una Cafetería llamada Zuflucht": "Spanish-language edition of A Café called Zuflucht.",
+    "Un Café Nommé Zuflucht": "French-language edition of A Café called Zuflucht.",
+    "Un café chiamato Zuflucht": "Italian-language edition of A Café called Zuflucht.",
+    "L'Apagada": "A novelette exploring disappearance, memory, and the emotional consequences of a sudden break with the past.",
+
+    // Science fiction
+    "A Codex of Observations on Humanity": "An intelligence called The Child observes humanity through impossible questions about love, violence, fear, and death—until observation becomes something it was never built to feel.",
+    "The Universe in Extremis": "In 2523, six cosmonauts and an android navigator travel beyond the Solar System to investigate five black holes and seek an answer to a five-century-old question about the nature of the universe. Grounded in real relativity and astrophysics, the mission becomes a struggle with betrayal, fractured loyalties, and an increasingly unreliable account of what really happened.",
+    "The Universe Extra Machina": "Five years after the Starlight Aurora One returns, physicist Mia Faruq discovers an impossible discrepancy in humanity's wormhole network. Her investigation leads a group of scientists on a fifty-year journey towards the limits of information, reality, and the universe itself, while unfinished business from the first expedition follows them into the distant future.",
+    "The Choir of Dust": "In a world where emotion has been rationed for thirty years, archivist Serina Dalvin discovers that the Ministry's vast collection of suppressed feelings is beginning to awaken. Pursued by the architects of the system, Serina and fellow archivist Simon Drell uncover a buried discovery that could transform humanity—and ultimately give rise to a new kind of consciousness."
+  
+    // Thrillers
+    "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind": "Dr. Noor Kessler investigates an ancient chamber in Malta that reproduces a phenomenon her patients experience as a broken signal in the brain, leading her from Neolithic archaeology and current neuroscience to a dangerous discovery about the architecture of the human mind—and those who want to control it.",
+    "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana": "La Dra. Noor Kessler investiga una antigua cámara en Malta que reproduce un fenómeno que sus pacientes experimentan como una señal averiada en el cerebro, llevándola desde la arqueología neolítica y la neurociencia actual hasta un peligroso descubrimiento sobre la arquitectura de la mente humana y quienes quieren controlarla.",
+    "The 14th Page": "A psychological mystery built around a disturbing discovery on the fourteenth page of a book, where an apparently ordinary object becomes the beginning of a much larger mystery.",
+    "The Secrets We Keep": "A thriller about hidden truths, personal secrets, and the consequences that follow when what people keep concealed can no longer remain buried.",
+    "Los secretos que guardamos": "The Spanish edition of The Secrets We Keep, the same spinetingling backstory, but in the setting of an old mansion in Malaga, Spain.",
+     
+    // Sarah Mackay — Nine Days Series
     "Geneva": "Sarah Mackay's first scientific adventure takes her to CERN for an intense immersion in particle physics, where quantum uncertainty begins to blur the boundary between science, mystery, and personal discovery.",
     "Istanbul": "A group of young physicists gathers in Istanbul for a nine-day immersion in quantum gravity, where difficult questions about space and reality become entangled with rivalry, romance, and personal uncertainty.",
     "Prague": "The quantum-gravity journey continues in Prague, where Sarah and her fellow physicists confront deeper questions about reality while strained friendships and rivalries become increasingly difficult to contain.",
@@ -24,20 +51,6 @@
     "Mexico City": "Sarah studies forensic science in Mexico City while becoming the target of a shadowy organisation, forcing her to combine scientific reasoning, investigation, and survival.",
     "Cambridge": "A nine-day seminar on the theoretical foundations of time travel draws Sarah into questions about wormholes, closed time-like curves, paradoxes, and whether time itself can be manipulated.",
     "Kyoto": "In Kyoto, Sarah investigates the nature of time through quantum mechanics, time dilation, and the quantum Zeno effect while confronting difficult questions about science, relationships, and the future.",
-
-    // Novellas & Flash Fiction
-    "Mystery in Reverse": "A piece of flash fiction built around an unconventional narrative perspective in which the mystery must be understood by moving backwards through events.",
-    "Murder Undone": "In a world where time flows backwards, private investigator Elias Vayne investigates a murder that has yet to be committed—and discovers that solving it may be as strange as committing it.",
-    "Misterio al revés": "The Spanish edition of Mystery in Reverse, a piece of flash fiction built around an unconventional backwards-moving mystery.",
-    "Un crimen por deshacer": "The Spanish edition of Murder Undone, a time-reversed mystery in which a private investigator follows a murder backwards through cause and effect.",
-    "The Never-Ending Question": "Alaric Hart follows a cryptic journal left by his father into a philosophical and scientific investigation of existence, reality, free will, and the possibility that some questions can never be answered.",
-    "The Moonfire Pact": "Evren carries an ancient power bound to the Rift, a chaotic force threatening reality. Joined by the warrior Vaelir, she must discover whether the Rift is meant to be destroyed—or transformed.",
-    "A Café called Zuflucht": "A fragmented story of love, crime, betrayal, exile, and the possibility of redemption.",
-    "Ein Café namens Zuflucht": "German-language edition of A Café called Zuflucht.",
-    "Una Cafetería llamada Zuflucht": "Spanish-language edition of A Café called Zuflucht.",
-    "Un Café Nommé Zuflucht": "French-language edition of A Café called Zuflucht.",
-    "Un café chiamato Zuflucht": "Italian-language edition of A Café called Zuflucht.",
-    "L'Apagada": "A novelette exploring disappearance, memory, and the emotional consequences of a sudden break with the past.",
 
     // Witchcraft, Magic & Sexuality
     "Fundamentals of Witchcraft": "An introduction to the foundations of witchcraft and magick, providing a structured starting point for readers developing their understanding and practice.",
@@ -109,20 +122,7 @@
     "Clean Slate": "A C2.2 story exploring the possibility of starting again—and the difficulty of escaping the consequences of what came before.",
     "Underneath Her Smile": "A C2.2 psychological story about Liv and Mason, an apparently perfect internet couple whose glamorous public image hides a far more complicated private reality.",
     "Clean Slate and Underneath Her Smile": "A collection of two C2.2 stories exploring identity, reinvention, relationships, and the difference between appearance and reality.",
-
-    // Thrillers
-    "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind": "Dr. Noor Kessler investigates an ancient chamber in Malta that reproduces a phenomenon her patients experience as a broken signal in the brain, leading her from Neolithic archaeology and current neuroscience to a dangerous discovery about the architecture of the human mind—and those who want to control it.",
-    "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana": "La Dra. Noor Kessler investiga una antigua cámara en Malta que reproduce un fenómeno que sus pacientes experimentan como una señal averiada en el cerebro, llevándola desde la arqueología neolítica y la neurociencia actual hasta un peligroso descubrimiento sobre la arquitectura de la mente humana y quienes quieren controlarla.",
-    "The 14th Page": "A psychological mystery built around a disturbing discovery on the fourteenth page of a book, where an apparently ordinary object becomes the beginning of a much larger mystery.",
-    "The Secrets We Keep": "A thriller about hidden truths, personal secrets, and the consequences that follow when what people keep concealed can no longer remain buried.",
-    "Los secretos que guardamos": "The Spanish edition of The Secrets We Keep, the same spinetingling backstory, but in the setting of an old mansion in Malaga, Spain.",
-
-    // Science fiction
-    "A Codex of Observations on Humanity": "An intelligence called The Child observes humanity through impossible questions about love, violence, fear, and death—until observation becomes something it was never built to feel.",
-    "The Universe in Extremis": "In 2523, six cosmonauts and an android navigator travel beyond the Solar System to investigate five black holes and seek an answer to a five-century-old question about the nature of the universe. Grounded in real relativity and astrophysics, the mission becomes a struggle with betrayal, fractured loyalties, and an increasingly unreliable account of what really happened.",
-    "The Universe Extra Machina": "Five years after the Starlight Aurora One returns, physicist Mia Faruq discovers an impossible discrepancy in humanity's wormhole network. Her investigation leads a group of scientists on a fifty-year journey towards the limits of information, reality, and the universe itself, while unfinished business from the first expedition follows them into the distant future.",
-    "The Choir of Dust": "In a world where emotion has been rationed for thirty years, archivist Serina Dalvin discovers that the Ministry's vast collection of suppressed feelings is beginning to awaken. Pursued by the architects of the system, Serina and fellow archivist Simon Drell uncover a buried discovery that could transform humanity—and ultimately give rise to a new kind of consciousness."
-  };
+};
 
   function descriptionFor(work, category) {
     const label = category ? category.label : "";
