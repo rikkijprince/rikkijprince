@@ -12,7 +12,7 @@ lang: en
 
 RJ Academy offers **online and in-person English classes** for people in the province of Castellón who want to use English with greater naturalness, confidence and precision.
 
-The objective is not simply to study more grammar or learn more vocabulary. The objective is to **communicate**: to understand other people, express yourself clearly, react spontaneously and develop the confidence needed to use English outside the classroom.
+The objective is not simply to study more grammar or learn more vocabulary. The objective is to **communicate**: to understand other people, express yourself clearly, react spontaneously and develop the confidence needed to use English outside the classroom. I also coach CEOs and technological professionals around the world who need to communicate technology and motivate teams.
 
 ## A communicative method
 
