@@ -115,7 +115,7 @@
     "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana": "La Dra. Noor Kessler investiga una antigua cámara en Malta que reproduce un fenómeno que sus pacientes experimentan como una señal averiada en el cerebro, llevándola desde la arqueología neolítica y la neurociencia actual hasta un peligroso descubrimiento sobre la arquitectura de la mente humana y quienes quieren controlarla.",
     "The 14th Page": "A psychological mystery built around a disturbing discovery on the fourteenth page of a book, where an apparently ordinary object becomes the beginning of a much larger mystery.",
     "The Secrets We Keep": "A thriller about hidden truths, personal secrets, and the consequences that follow when what people keep concealed can no longer remain buried.",
-    "Los secretos que guardamos": "La edición española de The Secrets We Keep, un thriller sobre secretos ocultos y las consecuencias de aquello que ya no puede permanecer enterrado.",
+    "Los secretos que guardamos": "The Spanish edition of The Secrets We Keep, the same spinetingling backstory, but in the setting of an old mansion in Malaga, Spain.",
 
     // Science fiction
     "A Codex of Observations on Humanity": "An intelligence called The Child observes humanity through impossible questions about love, violence, fear, and death—until observation becomes something it was never built to feel.",
