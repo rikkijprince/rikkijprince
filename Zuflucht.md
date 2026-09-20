@@ -102,7 +102,7 @@ permalink: /Zuflucht/
 <div class="zuflucht-page">
 
   <div class="zuflucht-hero">
-    <img src="/assets/images/zuflucht-day1.png"
+    <img src="{{ '/assets/images/zuflucht-day1.webp' | relative_url }}"
          alt="A rainy evening seen from inside a quiet café, with an empty chair and a cup of coffee">
   </div>
 
@@ -197,3 +197,4 @@ permalink: /Zuflucht/
 
   </div>
 </div>
+
