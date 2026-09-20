@@ -5,6 +5,7 @@
   "use strict";
 
   const ES_DESCRIPTIONS = {
+  // ---------------- Novellas & Flash Fiction ----------------
     "A Codex of Observations on Humanity": "Una inteligencia llamada The Child observa a la humanidad a través de preguntas imposibles sobre el amor, la violencia, el miedo y la muerte, hasta que la observación se convierte en algo que nunca fue creada para sentir.",
     "The Universe in Extremis": "En 2523, seis cosmonautas y un navegante androide viajan más allá del Sistema Solar para investigar cinco agujeros negros y buscar la respuesta a una pregunta de cinco siglos sobre la naturaleza del universo. Basada en relatividad y astrofísica reales, la misión se convierte en una lucha marcada por la traición, las lealtades enfrentadas y una versión cada vez menos fiable de lo ocurrido.",
     "The Universe Extra Machina": "Cinco años después del regreso de la Starlight Aurora One, la física Mia Faruq descubre una discrepancia imposible en la red de agujeros de gusano de la humanidad. Su investigación conduce a un grupo de científicos en un viaje de cincuenta años hacia los límites de la información, la realidad y el universo.",
@@ -24,6 +25,14 @@
     "Ein Café namens Zuflucht": "Edición en alemán de Una cafetería llamada Zuflucht.",
     "Un café nommé Zuflucht": "Edición en francés de Una cafetería llamada Zuflucht,
     "Un café chiamato Zuflucht": "Edición en italiano de Una cafetería llamada Zuflucht",
+  // --------------------- Science Fiction --------------------
+  // ------------------------ Thrillers -----------------------
+  // ------------- Sarah Mackay - Nine Days Series ------------
+  // ---------------- Sarah Mackay - Novels -------------------
+  // ----------------- Philosophical Works --------------------
+
+     
+  // ------------- Witchcraft, Magic & Sexuality --------------
     "Entre Gemidos": "Una exploración en español de la ciencia y la psicología del placer sexual, que examina el deseo, la excitación, el cuerpo y los factores que influyen en la experiencia íntima.",
     "Behind the Moans": "Una exploración en inglés de la ciencia del placer, que examina las dimensiones físicas, psicológicas y emocionales de la experiencia sexual.",
     "Fundamentals of Witchcraft": "Una introducción a los fundamentos de la brujería y la magia, concebida como punto de partida estructurado para quienes desean desarrollar su comprensión y práctica.",
@@ -32,7 +41,9 @@
     "Chaos Magick": "Una introducción a la magia del caos centrada en la creencia, el simbolismo, los sigilos, los estados alterados, los servidores y la experimentación.",
     "The Complete Witchcraft Training Manual": "Edición recopilatoria que reúne los tres primeros manuales de formación en brujería de Anwar Zanzibar, desde la práctica fundamental hasta las técnicas avanzadas.",
     "Practical Guide to Witchcraft & Chaos Magick": "Una introducción práctica a la brujería y la magia del caos que combina conceptos mágicos tradicionales con un enfoque experimental de la creencia, el simbolismo, el ritual y la práctica personal.",
-    "How to Overcome Any Obstacle to Studying": "Una guía práctica basada en la investigación para superar barreras psicológicas, emocionales, físicas y digitales al aprendizaje, con estrategias para la atención, la motivación, la ansiedad, el perfeccionismo y el estudio eficaz.",
+ 
+  // ------------------- Language Learning --------------------
+     "How to Overcome Any Obstacle to Studying": "Una guía práctica basada en la investigación para superar barreras psicológicas, emocionales, físicas y digitales al aprendizaje, con estrategias para la atención, la motivación, la ansiedad, el perfeccionismo y el estudio eficaz.",
     "Cómo superar cualquier obstáculo para estudiar": "La edición española de How to Overcome Any Obstacle to Studying, con estrategias prácticas para superar las barreras psicológicas, emocionales, físicas y digitales que dificultan el aprendizaje.",
     "Technical English in 2026": "Un curso práctico de nivel intermedio alto de inglés técnico y de ingeniería, centrado en la industria moderna, la robótica, los PLC, los gemelos digitales, la fabricación, la sostenibilidad, la gestión de proyectos y la comunicación profesional.",
     "Automatic Mind — Engineering the Subconscious for Language Mastery": "Una exploración práctica de cómo pueden entrenarse y utilizarse los procesos mentales automáticos para favorecer el aprendizaje de idiomas, la fluidez, la memoria y una comunicación más natural.",
@@ -40,7 +51,9 @@
     "Speak Naturally! Part 2 (B1–B2)": "La segunda etapa de Speak Naturally!, centrada en desarrollar la expresión oral B1–B2 mediante conversaciones y actividades sobre salud, viajes, cultura, naturaleza, ciencia y medio ambiente.",
     "Speak Naturally! Part 3 (B2–B2+)": "La etapa avanzada de Speak Naturally!, orientada al desarrollo de la expresión oral B2–B2+ mediante discusión, debate, negociación y presentaciones sobre negocios, medios de comunicación, sociedad, cuestiones globales y desarrollo personal.",
     "Speak Naturally! Box Set, Parts 1–3 (A2–B2+)": "El curso completo de expresión oral Speak Naturally!, dividido en tres partes y 96 lecciones centradas en conversaciones reales, vocabulario, pronunciación, fluidez, discusión, negociación y presentación.",
-    "Max the Brave": "Una lectura A1.1 sobre Max, un joven héroe que afronta un pequeño pero importante desafío y descubre que el valor puede adoptar muchas formas.",
+
+  // ----------------- English Fraded Readers -----------------
+     "Max the Brave": "Una lectura A1.1 sobre Max, un joven héroe que afronta un pequeño pero importante desafío y descubre que el valor puede adoptar muchas formas.",
     "The Runaway Robot": "Una lectura A1.1 sobre un inventor solitario cuyo pequeño robot de IA se escapa para explorar la ciudad y aprende sobre las personas, el peligro y la amistad.",
     "The Mystery of the Missing Cake": "Un misterio A1.2 en el que dos compañeros se convierten en detectives cuando desaparece un pastel durante la feria escolar.",
     "The Dead Cat on My Doorstep": "En el decimonoveno cumpleaños de Sarah Mackay aparece en su puerta una caja misteriosa que contiene un gato muerto. Sin nota ni explicación, Sarah intenta descubrir quién la envió y por qué.",
