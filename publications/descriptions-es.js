@@ -115,8 +115,8 @@
       lookupTitle = lookupTitle.replace(/^(?:A1\.1|A1\.2|A2\.1|A2\.2|B1|B1\.1|B1\.2|B2\.1|B2\.2|C1\.1|C1\.2|C2\.1|C2\.2)\s+/, "");
     }
 
-    if (SHORT_DESCRIPTIONS[lookupTitle]) {
-      return SHORT_DESCRIPTIONS[lookupTitle];
+    if (ES_DESCRIPTIONS[lookupTitle]) {
+      return ES_DESCRIPTIONS[lookupTitle];
     }
 
     // Sarah Mackay Novels
