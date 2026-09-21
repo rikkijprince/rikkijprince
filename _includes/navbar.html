@@ -1,6 +1,6 @@
 <nav class="navbar">
   <div class="nav-container">
-    <a class="nav-logo" href="{{ '/' | relative_url }}">Rikki J Prince</a>
+    <a class="nav-logo" href="{{ '/' | relative_url }}">Rikki J. Prince</a>
 
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span class="bar"></span>
@@ -19,6 +19,7 @@
       {% if page.url == '/es/rj-academy/' %}{% assign language_url = '/rj-academy/' %}{% endif %}
       {% if page.url == '/es/hybrid-english/' %}{% assign language_url = '/hybrid-english/' %}{% endif %}
       {% if page.url == '/es/publications/' %}{% assign language_url = '/publications/' %}{% endif %}
+      {% if page.url == '/es/Zuflucht_es/' %}{% assign language_url = '/Zuflucht/' %}{% endif %}
       <a class="language-switch" href="{{ language_url | relative_url }}">Switch to English</a>
     {% else %}
       <ul class="nav-links">
@@ -31,6 +32,7 @@
       {% if page.url == '/rj-academy/' %}{% assign language_url = '/es/rj-academy/' %}{% endif %}
       {% if page.url == '/hybrid-english/' %}{% assign language_url = '/es/hybrid-english/' %}{% endif %}
       {% if page.url == '/publications/' %}{% assign language_url = '/es/publications/' %}{% endif %}
+      {% if page.url == '/Zuflucht/' %}{% assign language_url = '/es/Zuflucht_es/' %}{% endif %}
       <a class="language-switch" href="{{ language_url | relative_url }}">Cambia al español</a>
     {% endif %}
   </div>
