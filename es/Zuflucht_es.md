@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: es
-title: "Un cafetería llamada Zuflucht"
+title: "Una cafetería llamada Zuflucht"
 permalink: /es/Zuflucht_es/
 ---
 
@@ -123,17 +123,17 @@ permalink: /es/Zuflucht_es/
       Otro está huyendo de la guerra.<br>
       Alguien está huyendo de la culpabilidad.<br>
       Alguien está huyendo de sí mismo.<br><br>
-      <strong>AY, quizá, todos necesitamos algún lugar dónde parar.</strong>
+      <strong>Y, quizá, todos necesitamos algún lugar donde parar.</strong>
     </div>
 
     <p>
-      <em>Una cafetería llamada Zuflucht</em> es una historia sobre personas que han hecho cosas 
-      tque no pueden deshacer, que cargan con recuerdos en los que no pueden confiar plenamente
+      <em>Una cafetería llamada Zuflucht</em> es una historia sobre personas que han hecho cosas
+      que no pueden deshacer, que cargan con recuerdos en los que no pueden confiar plenamente
       y que, sin embargo, intentan crear un lugar donde vivir sin tener que huir constantemente.
     </p>
 
     <p>
-      TLa cafetería es más que un simple escenario. Se convierte en una metáfora de la posibilidad
+      La cafetería es más que un simple escenario. Se convierte en una metáfora de la posibilidad
       del refugio mismo: frente al pasado, la culpa, la vigilancia, el duelo,
       la propia identidad y, a veces, incluso el amor.
     </p>
@@ -189,11 +189,11 @@ permalink: /es/Zuflucht_es/
       <strong>Más de Rikki J. Prince</strong><br>
       Explora sus novelas, relatos, ensayos y otras publicaciones.
       <br>
-      <a href="/publications">Visit the bibliographyVisita la bibliografía</a>
+      <a href="/es/publications/">Visita la bibliografía</a>
     </div>
 
     <p class="zuflucht-small">
-      <em>AUna afetería llamada Zuflucht</em> — Rikki J. Prince
+      <em>Una cafetería llamada Zuflucht</em> — Rikki J. Prince
     </p>
 
   </div>
