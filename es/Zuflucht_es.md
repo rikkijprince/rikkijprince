@@ -103,7 +103,7 @@ permalink: /es/Zuflucht_es/
 <div class="zuflucht-page">
 
   <div class="zuflucht-hero">
-    <img src="{{ '/assets/images/zuflucht-day1.webp' | relative_url }}"
+    <img src="{{ '/assets/images/zuflucht-day1_es.png' | relative_url }}"
          alt="Una tarde lluviosa vista desde una cafetería tranquila, con una silla vacía y una taza de café">
   </div>
 
