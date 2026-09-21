@@ -25,7 +25,7 @@
     "Ein Café namens Zuflucht": "Edición en alemán de Una cafetería llamada Zuflucht.",
     "Un café nommé Zuflucht": "Edición en francés de Una cafetería llamada Zuflucht.",
     "Un café chiamato Zuflucht": "Edición en italiano de Una cafetería llamada Zuflucht.",
-     
+
   // --------------------- Science Fiction --------------------
     "A Codex of Observations on Humanity": "Una inteligencia llamada El Niño observa a la humanidad a través de preguntas imposibles sobre el amor, la violencia, el miedo y la muerte, hasta que la observación se transforma en algo que nunca fue diseñada para sentir.",
     "The Universe in Extremis": "En el año 2523, seis cosmonautas y un navegante androide viajan más allá del sistema solar para investigar cinco agujeros negros y buscar respuesta a una pregunta de cinco siglos de antigüedad sobre la naturaleza del universo. Basada en principios reales de relatividad y astrofísica, la misión se convierte en una lucha marcada por la traición, las lealtades fracturadas y un relato cada vez menos fiable de lo que realmente sucedió.",
@@ -38,7 +38,7 @@
     "The 14th Page": "Un misterio psicológico construido en torno a un descubrimiento inquietante en la decimocuarta página de un libro, donde un objeto aparentemente común se convierte en el inicio de un misterio mucho mayor.",
     "Los secretos que guardamos": "Un thriller sobre verdades ocultas, secretos personales y las consecuencias que surgen cuando aquello que la gente mantiene oculto ya no puede permanecer enterrado.",
     "The Secrets We Keep": "La edición inglesa de la novela.",
-   
+
   // ------------- Sarah Mackay - Nine Days Series ------------
     "Geneva": "La primera aventura científica de Sarah Mackay la lleva al CERN para una intensa inmersión en la física de partículas, donde la incertidumbre cuántica comienza a difuminar la frontera entre la ciencia, el misterio y el descubrimiento personal.",
     "Istanbul": "Un grupo de jóvenes físicos se reúne en Estambul para una inmersión de nueve días en la gravedad cuántica, donde complejas cuestiones sobre el espacio y la realidad se entremezclan con rivalidades, romances e incertidumbres personales.",
@@ -56,9 +56,9 @@
     "Kioto": "En Kioto, Sarah investiga la naturaleza del tiempo a través de la mecánica cuántica, la dilatación temporal y el efecto cuántico de Zenón, al tiempo que se enfrenta a interrogantes complejos sobre la ciencia, las relaciones personales y el futuro.",
 
   // ---------------- Sarah Mackay - Novels -------------------
-     
+
   // ----------------- Philosophical Works --------------------
-     
+
   // ------------- Witchcraft, Magic & Sexuality --------------
     "Entre Gemidos": "Una exploración en español de la ciencia y la psicología del placer sexual, que examina el deseo, la excitación, el cuerpo y los factores que influyen en la experiencia íntima.",
     "Behind the Moans": "Una exploración en inglés de la ciencia del placer, que examina las dimensiones físicas, psicológicas y emocionales de la experiencia sexual.",
@@ -68,9 +68,9 @@
     "Chaos Magick": "Una introducción a la magia del caos centrada en la creencia, el simbolismo, los sigilos, los estados alterados, los servidores y la experimentación.",
     "The Complete Witchcraft Training Manual": "Edición recopilatoria que reúne los tres primeros manuales de formación en brujería de Anwar Zanzibar, desde la práctica fundamental hasta las técnicas avanzadas.",
     "Practical Guide to Witchcraft & Chaos Magick": "Una introducción práctica a la brujería y la magia del caos que combina conceptos mágicos tradicionales con un enfoque experimental de la creencia, el simbolismo, el ritual y la práctica personal.",
- 
+
   // ------------------- Language Learning --------------------
-     "How to Overcome Any Obstacle to Studying": "Una guía práctica basada en la investigación para superar barreras psicológicas, emocionales, físicas y digitales al aprendizaje, con estrategias para la atención, la motivación, la ansiedad, el perfeccionismo y el estudio eficaz.",
+    "How to Overcome Any Obstacle to Studying": "Una guía práctica basada en la investigación para superar barreras psicológicas, emocionales, físicas y digitales al aprendizaje, con estrategias para la atención, la motivación, la ansiedad, el perfeccionismo y el estudio eficaz.",
     "Cómo superar cualquier obstáculo para estudiar": "La edición española de How to Overcome Any Obstacle to Studying, con estrategias prácticas para superar las barreras psicológicas, emocionales, físicas y digitales que dificultan el aprendizaje.",
     "Technical English in 2026": "Un curso práctico de nivel intermedio alto de inglés técnico y de ingeniería, centrado en la industria moderna, la robótica, los PLC, los gemelos digitales, la fabricación, la sostenibilidad, la gestión de proyectos y la comunicación profesional.",
     "Automatic Mind — Engineering the Subconscious for Language Mastery": "Una exploración práctica de cómo pueden entrenarse y utilizarse los procesos mentales automáticos para favorecer el aprendizaje de idiomas, la fluidez, la memoria y una comunicación más natural.",
@@ -80,7 +80,7 @@
     "Speak Naturally! Box Set, Parts 1–3 (A2–B2+)": "El curso completo de expresión oral Speak Naturally!, dividido en tres partes y 96 lecciones centradas en conversaciones reales, vocabulario, pronunciación, fluidez, discusión, negociación y presentación.",
 
   // ----------------- English Fraded Readers -----------------
-     "Max the Brave": "Una lectura A1.1 sobre Max, un joven héroe que afronta un pequeño pero importante desafío y descubre que el valor puede adoptar muchas formas.",
+    "Max the Brave": "Una lectura A1.1 sobre Max, un joven héroe que afronta un pequeño pero importante desafío y descubre que el valor puede adoptar muchas formas.",
     "The Runaway Robot": "Una lectura A1.1 sobre un inventor solitario cuyo pequeño robot de IA se escapa para explorar la ciudad y aprende sobre las personas, el peligro y la amistad.",
     "The Mystery of the Missing Cake": "Un misterio A1.2 en el que dos compañeros se convierten en detectives cuando desaparece un pastel durante la feria escolar.",
     "The Dead Cat on My Doorstep": "En el decimonoveno cumpleaños de Sarah Mackay aparece en su puerta una caja misteriosa que contiene un gato muerto. Sin nota ni explicación, Sarah intenta descubrir quién la envió y por qué.",
@@ -155,7 +155,6 @@
     if (work.title === "The Symphony of Existence — From the Big Bang to the Illusion of Time") {
       return "Un viaje filosófico que va de la cosmología a la conciencia, planteando cómo la materia, el tiempo, la estructura y la experiencia se combinan para generar la realidad que habitamos.";
     }
-
   }
 
   const CATEGORY_FALLBACKS_ES = {
