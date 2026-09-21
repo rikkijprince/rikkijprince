@@ -1,5 +1,6 @@
 ---
 layout: default
+lang: es
 title: "Un cafetería llamada Zuflucht"
 permalink: /es/Zuflucht_es/
 ---
