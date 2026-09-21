@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Un cafetería llamada Zuflucht"
-permalink: /Zuflucht/
+permalink: /es/Zuflucht_es/
 ---
 
 <style>
