@@ -59,7 +59,7 @@ const WORKS = [
   { category: "thrillers", written: "109S", pub: 118, code: "T1S", title: "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana", language: "Spanish", status: "published", url: "https://www.amazon.es/Bicameral-lenguaje-conciencia-orígenes-Spanish-ebook/dp/B0HHFBBKJL?tag=rjpamazon-21" },
   { category: "thrillers", written: 104,    pub: 119, code: "T2",  title: "The 14th Page", status: "published", url: "https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21" },
   { category: "thrillers", written: 96,     pub: 121, code: "T3",  title: "The Secrets We Keep", status: "published", url: "amazon.com/dp/B0HK185QJZ" },
-  { category: "thrillers", written: "96S",  pubb: 122,  code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "published", url: "amazon.es/dp/B0HK13K4YD" },
+  { category: "thrillers", written: "96S",  pub: 122,  code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "published", url: "amazon.es/dp/B0HK13K4YD" },
    
   // ---------------- Sarah Mackay — Nine Days Series ----------------
   { category: "nine-days", written: 1, pub: 1,  code: "9D01", title: "Geneva", status: "published", url: "https://draft2digital.com/book/2269819" },
