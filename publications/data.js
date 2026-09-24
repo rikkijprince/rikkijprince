@@ -50,16 +50,16 @@ const WORKS = [
    // ---------------- Science Fiction ----------------
   { category: "sci-fi", written: 93, pub: 120, code: "SF1", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ?tag=rjpamazon-21" },
   { category: "sci-fi", written: 100, code: "SF2", title: "The Universe in Extremis", status: "ready", url: "" },
-  { category: "sci-fi", written: 102, code: "SF3", title: "The Universe Extra Machina", status: "editing", url: "" },
-  { category: "sci-fi", written: "100+102", code: "SF2+3", title: "The Universe", status: "editing", url: "" },
+  { category: "sci-fi", written: 102, code: "SF3", title: "The Universe Extra Machina", status: "ready", url: "" },
+  { category: "sci-fi", written: "100+102", code: "SF2+3", title: "The Universe", status: "ready", url: "" },
   { category: "sci-fi", written: 103, code: "SF4", title: "The Choir of Dust", status: "editing", url: "" },
   
   // ---------------- Thrillers ----------------
   { category: "thrillers", written: 109,    pub: 117, code: "T1",  title: "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind", status: "published", url: "https://www.amazon.com/dp/B0HHFB1291?tag=rjpamazon-21" },
   { category: "thrillers", written: "109S", pub: 118, code: "T1S", title: "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana", language: "Spanish", status: "published", url: "https://www.amazon.es/Bicameral-lenguaje-conciencia-orígenes-Spanish-ebook/dp/B0HHFBBKJL?tag=rjpamazon-21" },
-  { category: "thrillers", written: 104,    pub: 119, code: "T2",  title: "The 14th Page", status: "published", url: "https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21" },
+  { category: "thrillers", published: 104,    pub: 119, code: "T2",  title: "The 14th Page", status: "published", url: "https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21" },
   { category: "thrillers", written: 96,     pub: 121, code: "T3",  title: "The Secrets We Keep", status: "published", url: "amazon.com/dp/B0HK185QJZ" },
-  { category: "thrillers", written: "96S",  pub: 122,  code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "published", url: "amazon.es/dp/B0HK13K4YD" },
+  { category: "thrillers", "published": "96S",  pub: 122,  code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "published", url: "amazon.es/dp/B0HK13K4YD" },
    
   // ---------------- Sarah Mackay — Nine Days Series ----------------
   { category: "nine-days", written: 1, pub: 1,  code: "9D01", title: "Geneva", status: "published", url: "https://draft2digital.com/book/2269819" },
