@@ -10,7 +10,7 @@ lang: en
 
 ## English for communicating clearly in the real world
 
-RJ Academy offers **online and in-person English classes** for people in the province of Castellón who want to use English with greater naturalness, confidence and precision.
+RJ Academy offers **in-person English fluency training** for anyone in the province of Castellón, and **online sessions for anyone with a stable Internet connection** who wants to use English with greater naturalness, confidence and precision.
 
 The objective is not simply to study more grammar or learn more vocabulary. The objective is to **communicate**: to understand other people, express yourself clearly, react spontaneously and develop the confidence needed to use English outside the classroom. I also coach CEOs and technological professionals around the world who need to communicate technology and motivate teams.
 
@@ -51,7 +51,7 @@ Classes can be organised **online or in person**, according to the student's nee
 Prices depend on the type of class and how the sessions are organised. **Contact me directly for current options and prices.**
 
 <div class="contact-box">
-  <h2>Contact</h2>
+  <h2>Contact RJ</h2>
   <p>If you would like information about classes, schedules or prices, you can send me a message directly from here.</p>
 
   <form id="rj-contact-form">
