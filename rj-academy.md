@@ -48,7 +48,7 @@ Classes can be organised **online or in person**, according to the student's nee
 
 ## Prices
 
-Prices depend on the type of class and how the sessions are organised. **Contact me directly for current options and prices.**
+Face-to-face sessions are generally 30€ per one-hour session (2026). The price can come down considerably if you combine tutorials with AI practice. **Contact me directly for current options and prices.**
 
 <div class="contact-box">
   <h2>Contact RJ</h2>
