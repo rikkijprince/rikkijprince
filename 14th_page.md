@@ -1,6 +1,6 @@
 # THE 14TH PAGE
 
-![The 14th Page — ebook cover](The%2014th%20Page%20ebook%20cover.jpg)
+![The_14th_Page](The_14th_Page.jpg)
 
 > SOME SECRETS WERE **NEVER** MEANT TO BE FOUND.
 
@@ -11,3 +11,7 @@
 **A TRUTH THAT COULD CHANGE EVERYTHING.**
 
 **RIKKI J. PRINCE**
+
+
+[**BUY THE 14TH PAGE ON AMAZON**](https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21)
+
