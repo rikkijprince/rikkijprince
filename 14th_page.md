@@ -1,0 +1,13 @@
+# THE 14TH PAGE
+
+![The 14th Page — ebook cover](The%2014th%20Page%20ebook%20cover.jpg)
+
+> SOME SECRETS WERE **NEVER** MEANT TO BE FOUND.
+
+## THE 14TH PAGE
+
+**AN ANCIENT CODE.**  
+**A HIDDEN WORLD.**  
+**A TRUTH THAT COULD CHANGE EVERYTHING.**
+
+**RIKKI J. PRINCE**
