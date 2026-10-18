@@ -10,7 +10,7 @@ lang: en
 
 ## English for communicating clearly in the real world
 
-RJ Academy offers **in-person English fluency training** for anyone in the province of Castellón, and **online sessions for anyone with a stable Internet connection** who wants to use English with greater naturalness, confidence and precision.
+RJ Academy offers **personal English fluency training** in online sessions for anyone with a stable Internet connection **anywhere in the World**.
 
 The objective is not simply to study more grammar or learn more vocabulary. The objective is to **communicate**: to understand other people, express yourself clearly, react spontaneously and develop the confidence needed to use English outside the classroom. I also coach CEOs and technological professionals around the world who need to communicate technology and motivate teams.
 
@@ -32,27 +32,26 @@ However, I do not consider it necessary to choose between them.
 
 ## World English
 
-My personal preference is what I call **World English**: clear, natural and flexible English that can be understood easily anywhere in the world.
+My personal preference is to use **World English**: a clear, natural and flexible English that can be understood easily anywhere in the world.
 
 This means learning to speak in a way that makes pronunciation, rhythm, vocabulary and expressions facilitate communication with people from different countries, without needing to imitate a single national accent perfectly.
 
-The objective is for students to be able to speak with a British person, an American, a German, a Japanese person, a Mexican or any other international speaker and be understood easily; and, at the same time, to understand the different forms of English they will encounter in real life.
+The objective is for students to be able to speak with Engglish speakers from the UK, the USA, Canada, Australia, New Zaland, India, South Africa, Scandinavia, Eastern Europe, Arab countries, Asian countries... any international speaker who uses English as a means of communication and to understand the different forms of English they will encounter in real life.
 
 ## How much time?
 
-To achieve good results, I recommend **two hours of class per week**, ideally distributed as part of a regular routine.
+To achieve good results, I recommend **two hours of class per week**, ideally distributed as part of a regular routine. You will be surprised at what you can achieve in six months.
 
-Continuity is important: learning a language is not simply a matter of accumulating knowledge, but of developing comprehension and production habits that become increasingly automatic through practice.
+Learning a language is not simply a matter of accumulating knowledge, but of developing comprehension and production habits that become increasingly automatic through practice.
 
-Classes can be organised **online or in person**, according to the student's needs and circumstances.
 
 ## Prices
 
-Face-to-face sessions are generally 30€ per one-hour session (2026). The price can come down considerably if you combine tutorials with AI practice. **Contact me directly for current options and prices.**
+Face-to-face sessions are generally 30€ per one-hour session (2026). The price can come down considerably if you combine tutorials with AI practice. **Contact me directly and tell me your needs.**
 
 <div class="contact-box">
   <h2>Contact RJ</h2>
-  <p>If you would like information about classes, schedules or prices, you can send me a message directly from here.</p>
+  <p>Send me a message directly from here.</p>
 
   <form id="rj-contact-form">
     <label for="contact-name">Name</label>
@@ -80,7 +79,7 @@ Face-to-face sessions are generally 30€ per one-hour session (2026). The price
     var email = document.getElementById('contact-email').value.trim();
     var message = document.getElementById('contact-message').value.trim();
 
-    var recipient = ['me', '@', 'rikkijprince', '.', 'com'].join('');
+    var recipient = ['rjpxpr', '@', 'gmail', '.', 'com'].join('');
     var subject = encodeURIComponent('Enquiry about RJ Academy');
     var body = encodeURIComponent(
       'Name: ' + name + '\n' +
