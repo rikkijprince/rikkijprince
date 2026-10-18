@@ -7,16 +7,18 @@ lang: en
 ---
 
 # Rikki J Prince
+# Author and English Language Trainer Concerned about Technology and the Future of Humanity
 
 *English is no longer just a language skill.  
 It is a cognitive tool for navigating a world being reshaped by technology.*
 
 People come here for different reasons.  
-Some need English for demanding professional work. Others are interested in ideas, writing, and how language shapes understanding.
+Some need English for demanding professional work.
+Others are interested in reading the opinions of independent thinkers about the effect of technology on humanity.
 
-This site brings those paths together.
+This site brings these two worlds together.
 
-## Explore the work
+## Explore your path to English Perfection (Spoiler: don't aim for perfection)
 
 ### RJ Academy
 Advanced English training for professionals working in technology, engineering, sales & marketing, and AI-driven fields.
@@ -28,27 +30,21 @@ Advanced English training for professionals working in technology, engineering, 
 ### Hybrid English 5.0
 A modular approach to mastering English through cognition, narrative, and real-world application.
 
-[Why I abandoned the AI approach](/hybrid-english/)
+[Why I abandoned the pure AI approach](/hybrid-english/)
 
 ---
 
-### Publications
-Fiction, experimental writing, and reflective works exploring time, memory, and perception.
+## Explore my Fiction, experimental writing, and reflective works.
 
 [Browse publications](/publications/)
 
-## Purpose
+## PMy Mission Statement
 
 Language is never just a tool.  
 It shapes how we think, how we learn, and how we imagine possible futures.
+My aim is to widen your horizons and make more opportunities available to you
+whether in your professional life, in your travels, or in your learning.
 
-Some visitors come here to refine their English for professional life.  
-Others come to read, reflect, or explore ideas through fiction.
-
-This site exists because those pursuits belong together.
-
-## Not sure where to begin?
-
-RJ Academy offers the clearest introduction to the educational and creative work on this site.
+## NReady to take a step?
 
 [Start here](/rj-academy/)
