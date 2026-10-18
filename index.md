@@ -8,7 +8,7 @@ lang: en
 
 # Rikki J Prince
 # Author and English Language Trainer
-### Concerned about Technology and the Future of Humanity
+### concerned about technology and the future of humanity
 
 *English is no longer just a language skill.  
 It is a cognitive tool for navigating a world being reshaped by technology.*
@@ -43,7 +43,8 @@ A modular approach to mastering English through cognition, narrative, and real-w
 
 Language is never just a tool.  
 It shapes how we think, how we learn, and how we imagine possible futures.
-My aim is to widen your horizons and make more opportunities available to you
+My aim is to give you the tools you need to achieve your objectives,
+but also to widen your horizons and make more opportunities available to you,
 whether in your professional life, in your travels, or in your learning.
 
 ## Ready to take a step?
