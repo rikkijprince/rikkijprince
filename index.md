@@ -8,10 +8,7 @@ lang: en
 
 # Rikki J Prince
 # Author and English Language Trainer
-### Passionate (and concerned) about Communicatioo, Ttechnology and the Future of Humanity
-
-*English is no longer just a language skill.  
-It is a cognitive tool for navigating a world being reshaped by technology.*
+### Passionate (and concerned) about Cmmunication, Technology and the Future of Humanity
 
 People come here for different reasons.  
 Some need English for demanding professional work.
@@ -31,7 +28,7 @@ Advanced English training for professionals working in technology, engineering, 
 ### Hybrid English 5.0
 A modular approach to mastering English through cognition, narrative, and real-world application.
 
-[Why I abandoned the pure AI approach](/hybrid-english/)
+[Why I abandoned the pure AI approach in favour of the hybrid approach](/hybrid-english/)
 
 ---
 
@@ -39,13 +36,12 @@ A modular approach to mastering English through cognition, narrative, and real-w
 
 [Browse publications](/publications/)
 
-## My Mission Statement
+## Mission Statement
 
-Language is never just a tool.  
-It shapes how we think, how we learn, and how we imagine possible futures.
-My aim is to give you the tools you need to achieve your objectives,
-but also to widen your horizons and make more opportunities available to you,
-whether in your professional life, in your travels, or in your learning.
+Language is never just a tool, any more than AI is just a tool.
+They both shapes how we think, how we learn, and how we imagine possible futures.
+My aim is to give you proficiency in the English Language so that you can perform your tasks better,
+make more opportunities available to you, and enrichen your life.
 
 ## Ready to take a step?
 
