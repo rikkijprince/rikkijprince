@@ -8,7 +8,7 @@ lang: en
 
 # Rikki J Prince
 # Author and English Language Trainer
-### concerned about technology and the future of humanity
+### Passionate (and concerned) about Communicatioo, Ttechnology and the Future of Humanity
 
 *English is no longer just a language skill.  
 It is a cognitive tool for navigating a world being reshaped by technology.*
