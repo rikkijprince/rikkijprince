@@ -25,7 +25,7 @@
 
     // Science fiction
     "A Codex of Observations on Humanity": "An intelligence called The Child observes humanity through impossible questions about love, violence, fear, and death—until observation becomes something it was never built to feel.",
-    "The Edge of Reality": "A novel in two parts: The Universe in Extremis and The Universe Extra Maxhina. It follows humanity's attempt to understand the nature of reality itself as six cosmonauts and an android navigator journey beyond the Solar System, culminating in a fifty-year journey toward the limits of information, reality, and the universe. Rooted in real relativity and astrophysics, the two parts together ask what the universe is, and what we become in pursuit of the answer.",
+    "The Edge of Reality": "A novel in two parts: The Universe in Extremis and The Universe Extra Machina. It follows humanity's attempt to understand the nature of reality itself as six cosmonauts and an android navigator journey beyond the Solar System, culminating in a fifty-year journey toward the limits of information, reality, and the universe. Rooted in real relativity and astrophysics, the two parts together ask what the universe is, and what we become in pursuit of the answer.",
     "The Choir of Dust": "In a world where emotion has been rationed for thirty years, archivist Serina Dalvin discovers that the Ministry's vast collection of suppressed feelings is beginning to awaken. Pursued by the architects of the system, Serina and fellow archivist Simon Drell uncover a buried discovery that could transform humanity—and ultimately give rise to a new kind of consciousness.",
   
     // Thrillers
