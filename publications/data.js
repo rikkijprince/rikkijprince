@@ -49,7 +49,7 @@ const WORKS = [
 
    // ---------------- Science Fiction ----------------
   { category: "sci-fi", written: 93, pub: 120, code: "SF1", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ?tag=rjpamazon-21" },
-  { category: "sci-fi", written: "100+102", code: "SF2+3", title: "The Edge of Reality", status: "ready", url: "" },
+  { category: "sci-fi", written: "100+102", code: "SF2+3", title: "The Edge of Reality", status: "published", url: "https://www.amazon.com/dp/B0HNW6YBT8?tag=rjpamazon-21" },
   { category: "sci-fi", written: 103, code: "SF4", title: "The Choir of Dust", status: "editing", url: "" },
   
   // ---------------- Thrillers ----------------
