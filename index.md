@@ -16,7 +16,7 @@ Others are interested in reading the opinions of independent thinkers about the 
 
 This site brings these two worlds together.
 
-## Explore your path to English Perfection (Spoiler: don't aim for perfection)
+## Explore the perfect way to learn English (Spoiler: don't aim for perfection)
 
 ### RJ Academy
 Advanced English training for professionals working in technology, engineering, sales & marketing, and AI-driven fields.
@@ -32,7 +32,7 @@ A modular approach to mastering English through cognition, narrative, and real-w
 
 ---
 
-## Explore my Fiction, experimental writing, and reflective works.
+## Explore my writing.
 
 [Browse publications](/publications/)
 
