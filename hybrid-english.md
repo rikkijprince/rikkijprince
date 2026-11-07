@@ -12,6 +12,6 @@ Hybrid English 5.0 is the English fluency training system developed by Rikki J. 
 
 The existing Hybrid English service is currently hosted separately from this main website.
 
-[Go to Hybrid English 5.0](https://www.rikkijprince.com/start/)
+[Go to Hybrid English 5.0](https://www.rikkijprince.com/Hybrid_English_register.md/)
 
 If you are looking for the local, face-to-face and online English classes offered in the province of Castellón, see [RJ Academy](/rj-academy/).
