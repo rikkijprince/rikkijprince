@@ -8,7 +8,7 @@ lang: en
 
 # Rikki J Prince
 # Author and English Language Trainer
-### Passionate (and concerned) about Cmmunication, Technology and the Future of Humanity
+### Interested in Communication, Technology and the Future of Humanity
 
 People come here for different reasons.  
 Some need English for demanding professional work.
