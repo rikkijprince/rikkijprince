@@ -16,10 +16,10 @@ Others are interested in reading the opinions of independent thinkers about the 
 
 This site brings these two worlds together.
 
-## Explore the perfect way to learn English (Spoiler: don't aim for perfection)
+## Explore the perfect way to learn English (spoiler: don't aim for perfection)
 
 ### RJ Academy
-Advanced English training for professionals working in technology, engineering, sales & marketing, and AI-driven fields.
+Advanced English training for professionals working in technology, engineering, sales & marketing, logistics, admin, and AI-driven fields.
 
 [Explore RJ Academy](/rj-academy/)
 
