@@ -139,8 +139,7 @@
     "Practical Guide to Witchcraft & Chaos Magick": "A practical introduction to witchcraft and chaos magick, combining traditional magical concepts with an experimental approach to belief, symbolism, ritual, and personal practice.",
     "Entre Gemidos": "A Spanish-language exploration of the science and psychology of sexual pleasure, examining desire, arousal, the body, and the factors that shape intimate experience.",
     "Behind the Moans": "An accessible exploration of the science of pleasure, examining the physical, psychological, and emotional dimensions of sexual experience.",
-    "Desire and Denunciation": "A history of sex magic from ancient temples to modern witchcraft.",
-    "Re-Enchantment of the Body": "The hidden history of sex, magic, and the sacred body.",
+    "Naked Before the Gods": "The hidden history of sex, magic, and the sacred body from ancient temples to modern witchcraft.",
 };
 
   function descriptionFor(work, category) {
