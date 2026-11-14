@@ -26,10 +26,10 @@ const CATEGORIES = [
   { slug: "thrillers", label: "Thrillers" },
   { slug: "nine-days", label: "Sarah Mackay — Nine Days Series" },
   { slug: "sarah-mackay-novels", label: "Sarah Mackay — Novels" },
-  { slug: "philosophy", label: "Philosophical Works" },
-  { slug: "witchcraft-magic-sexuality", label: "Witchcraft, Magic & Sexuality"},
   { slug: "language-learning", label: "Language Learning" },
   { slug: "readers", label: "English Graded Readers" },
+  { slug: "philosophy", label: "Philosophical Works" },
+  { slug: "witchcraft-magic-sexuality", label: "Witchcraft, Magic & Sexuality"},
 ];
 
 const WORKS = [
@@ -82,27 +82,6 @@ const WORKS = [
   { category: "sarah-mackay-novels", written: 19, pub: 29, code: "SMN3", title: "Quantum Supremacy", status: "published", url: "https://amazon.es/dp/B0DZ5JPP54?tag=rjpamazon-21" },
   { category: "sarah-mackay-novels", written: 20, pub: 32, code: "SMN4", title: "Gaza & Sudan", status: "published", url: "https://amazon.es/dp/B0F9WXJSFB?tag=rjpamazon-21" },
   { category: "sarah-mackay-novels", written: 21, pub: 35, code: "SMN5", title: "The Frozen Lands", status: "published", url: "https://amazon.es/dp/B0F9X1G4PY?tag=rjpamazon-21" },
-
-  // ---------------- Philosophical Works ----------------
-  { category: "philosophy", written: 34, pub: 36,  code: "PH1", title: "What is Existence? — Mind, Matter and Meaning", status: "published", url: "https://books2read.com/u/mVEWKl" },
-  { category: "philosophy", written: 35, pub: 37, code: "PH2", title: "Eudainomic Flow, or the Art of Flourishing", status: "published", url: "https://books2read.com/u/mexMeA?tag=rjpamazon-21" },
-  { category: "philosophy", written: 97, pub: 105, code: "PH3", title: "Constraintism — A Constraint-based Philosophy", status: "published", url: "https://books2read.com/u/bWD1k0" },
-  { category: "philosophy", written: 98, pub: 106, code: "PH4", title: "Threshold Ethics", status: "published", url: "https://books2read.com/u/bPPwwj" },
-  { category: "philosophy", written: 99, pub: 107, code: "PH5", title: "Patterns That Matter", status: "published", url: "https://books2read.com/u/4Nz5yG" },
-  { category: "philosophy", written: 105, pub: 110, code: "PH6", title: "The Symphony of Existence — From the Big Bang to the Illusion of Time", status: "published", url: "https://books2read.com/u/bOV1VK" },
-
-  // ---------------- Witchcraft, Magic & Sexuality ----------------
-  { category: "witchcraft-magic-sexuality", written: 47, pub: 44,  code: "WMS1",   title: "Fundamentals of Witchcraft", status: "published", url: "https://books2read.com/u/mZ65GB" },
-  { category: "witchcraft-magic-sexuality", written: 48, pub: 45,  code: "WMS2",   title: "Witchcraft and Magick", status: "published", url: "https://books2read.com/u/bPpJPd" },
-  { category: "witchcraft-magic-sexuality", written: 49, pub: 46,  code: "WMS3",   title: "Advanced Witchcraft Training", status: "published", url: "https://books2read.com/u/38Ngaw" },
-  { category: "witchcraft-magic-sexuality", written: 50, pub: 108, code: "W4MS",   title: "Chaos Magick", status: "published", url: "https://books2read.com/u/4jkZo5" },
-  { category: "witchcraft-magic-sexuality",              pub: 53,  code: "WMS1-3", title: "The Complete Witchcraft Training Manual", note: "box set · W1–W3", status: "published", url: "https://amazon.es/dp/B0F32D82J9?tag=rjpamazon-21" },
-  { category: "witchcraft-magic-sexuality",              pub: 54,  code: "WMS1-4", title: "Practical Guide to Witchcraft & Chaos Magick", status: "published", url: "https://amazon.es/dp/B0F9XZJVQL?tag=rjpamazon-21" },
-  { category: "witchcraft-magic-sexuality", written: 88, pub: 55,  code: "WM5",    title: "Entre Gemidos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0FB9QK8JZ?tag=rjpamazon-21" },
-  { category: "witchcraft-magic-sexuality", written: 89, pub: 56,  code: "WMS",    title: "Behind the Moans", status: "published", url: "https://amazon.es/dp/B0FB525NFB?tag=rjpamazon-21" },
-  { category: "witchcraft-magic-sexuality", written: 110,          code: "WM6",    title: "Desire and Denunciation", status: "editing" },
-  { category: "witchcraft-magic-sexuality", written: 111,          code: "WMS7",   title: "Re-Enchantment of the Body", status: "editing" },
-
  // ---------------- Language Learning ----------------
   { category: "language-learning", written: 94,    pub: 103, code: "LL1", title: "How to Overcome Any Obstacle to Studying", status: "published", url: "https://books2read.com/u/bzMoyZ" },
   { category: "language-learning", written: "94S", pub: 104, code: "LL2", title: "Cómo superar cualquier obstáculo para estudiar", language: "Spanish", status: "published", url: "https://books2read.com/u/m2WV16" },
@@ -161,5 +140,26 @@ const WORKS = [
   { category: "readers", written: 86, pub: 94, code: "R43",    title: "C2.2 Clean Slate", status: "published", url: "https://books2read.com/u/47pkBE" },
   { category: "readers", written: 87, pub: 95, code: "R44",    title: "C2.2 Underneath Her Smile", status: "published", url: "https://books2read.com/u/bQoZ7v" },
   { category: "readers",              pub: 96, code: "R45",    title: "C2.2 Clean Slate and Underneath Her Smile", note: "bundle", status: "published", url: "https://amazon.es/dp/B0FFN4XCY?tag=rjpamazon-21" },
+
+  // ---------------- Philosophical Works ----------------
+  { category: "philosophy", written: 34, pub: 36,  code: "PH1", title: "What is Existence? — Mind, Matter and Meaning", status: "published", url: "https://books2read.com/u/mVEWKl" },
+  { category: "philosophy", written: 35, pub: 37, code: "PH2", title: "Eudainomic Flow, or the Art of Flourishing", status: "published", url: "https://books2read.com/u/mexMeA?tag=rjpamazon-21" },
+  { category: "philosophy", written: 97, pub: 105, code: "PH3", title: "Constraintism — A Constraint-based Philosophy", status: "published", url: "https://books2read.com/u/bWD1k0" },
+  { category: "philosophy", written: 98, pub: 106, code: "PH4", title: "Threshold Ethics", status: "published", url: "https://books2read.com/u/bPPwwj" },
+  { category: "philosophy", written: 99, pub: 107, code: "PH5", title: "Patterns That Matter", status: "published", url: "https://books2read.com/u/4Nz5yG" },
+  { category: "philosophy", written: 105, pub: 110, code: "PH6", title: "The Symphony of Existence — From the Big Bang to the Illusion of Time", status: "published", url: "https://books2read.com/u/bOV1VK" },
+
+  // ---------------- Witchcraft, Magic & Sexuality ----------------
+  { category: "witchcraft-magic-sexuality", written: 47, pub: 44,  code: "WMS1",   title: "Fundamentals of Witchcraft", status: "published", url: "https://books2read.com/u/mZ65GB" },
+  { category: "witchcraft-magic-sexuality", written: 48, pub: 45,  code: "WMS2",   title: "Witchcraft and Magick", status: "published", url: "https://books2read.com/u/bPpJPd" },
+  { category: "witchcraft-magic-sexuality", written: 49, pub: 46,  code: "WMS3",   title: "Advanced Witchcraft Training", status: "published", url: "https://books2read.com/u/38Ngaw" },
+  { category: "witchcraft-magic-sexuality", written: 50, pub: 108, code: "W4MS",   title: "Chaos Magick", status: "published", url: "https://books2read.com/u/4jkZo5" },
+  { category: "witchcraft-magic-sexuality",              pub: 53,  code: "WMS1-3", title: "The Complete Witchcraft Training Manual", note: "box set · W1–W3", status: "published", url: "https://amazon.es/dp/B0F32D82J9?tag=rjpamazon-21" },
+  { category: "witchcraft-magic-sexuality",              pub: 54,  code: "WMS1-4", title: "Practical Guide to Witchcraft & Chaos Magick", status: "published", url: "https://amazon.es/dp/B0F9XZJVQL?tag=rjpamazon-21" },
+  { category: "witchcraft-magic-sexuality", written: 88, pub: 55,  code: "WM5",    title: "Entre Gemidos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0FB9QK8JZ?tag=rjpamazon-21" },
+  { category: "witchcraft-magic-sexuality", written: 89, pub: 56,  code: "WMS",    title: "Behind the Moans", status: "published", url: "https://amazon.es/dp/B0FB525NFB?tag=rjpamazon-21" },
+  { category: "witchcraft-magic-sexuality", written: 110,          code: "WM6",    title: "Desire and Denunciation", status: "editing" },
+  { category: "witchcraft-magic-sexuality", written: 111,          code: "WMS7",   title: "Re-Enchantment of the Body", status: "editing" },
+
 
 ];
