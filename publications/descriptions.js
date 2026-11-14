@@ -51,19 +51,7 @@
     "Cambridge": "A nine-day seminar on the theoretical foundations of time travel draws Sarah into questions about wormholes, closed time-like curves, paradoxes, and whether time itself can be manipulated.",
     "Kyoto": "In Kyoto, Sarah investigates the nature of time through quantum mechanics, time dilation, and the quantum Zeno effect while confronting difficult questions about science, relationships, and the future.",
 
-    // Witchcraft, Magic & Sexuality
-    "Fundamentals of Witchcraft": "An introduction to the foundations of witchcraft and magick, providing a structured starting point for readers developing their understanding and practice.",
-    "Witchcraft and Magick": "A practical exploration of witchcraft and magick, moving beyond basic concepts into methods, practices, and the development of a personal magical discipline.",
-    "Advanced Witchcraft Training": "An advanced training manual covering techniques such as energy work, astral projection, sigils, evocation, shadow work, and other forms of contemporary magical practice.",
-    "Chaos Magick": "An introduction to chaos magick centred on belief, symbolism, sigils, altered states, servitors, experimentation, and the idea that magical practice can be deliberately designed and adapted.",
-    "The Complete Witchcraft Training Manual": "A collected edition bringing together the first three Anwar Zanzibar witchcraft training manuals, from foundational practice through advanced techniques.",
-    "Practical Guide to Witchcraft & Chaos Magick": "A practical introduction to witchcraft and chaos magick, combining traditional magical concepts with an experimental approach to belief, symbolism, ritual, and personal practice.",
-    "Entre Gemidos": "A Spanish-language exploration of the science and psychology of sexual pleasure, examining desire, arousal, the body, and the factors that shape intimate experience.",
-    "Behind the Moans": "An accessible exploration of the science of pleasure, examining the physical, psychological, and emotional dimensions of sexual experience.",
-    "Desire and Denunciation": "A history of sex magic from ancient temples to modern witchcraft.",
-    "Re-Enchantment of the Body": "The hidden history of sex, magic, and the sacred body.",
-
-    // Language learning
+     // Language learning
     "How to Overcome Any Obstacle to Studying": "A practical, research-informed guide to overcoming psychological, emotional, physical, and digital barriers to learning, with strategies for attention, motivation, anxiety, perfectionism, and effective study.",
     "Cómo superar cualquier obstáculo para estudiar": "The Spanish edition of How to Overcome Any Obstacle to Studying, offering practical strategies for overcoming the psychological, emotional, physical, and digital barriers to learning.",
     "Comment surmonter tout obstacle à l'étude": "The French edition of How to Overcome Any Obstacle to Studying, offering practical strategies for overcoming the psychological, emotional, physical, and digital barriers to learning.",
@@ -121,6 +109,38 @@
     "Clean Slate": "A C2.2 story exploring the possibility of starting again—and the difficulty of escaping the consequences of what came before.",
     "Underneath Her Smile": "A C2.2 psychological story about Liv and Mason, an apparently perfect internet couple whose glamorous public image hides a far more complicated private reality.",
     "Clean Slate and Underneath Her Smile": "A collection of two C2.2 stories exploring identity, reinvention, relationships, and the difference between appearance and reality.",
+
+    // Philosophical Works
+    if (work.title === "What is Existence? — Mind, Matter and Meaning") {
+      return "An accessible philosophical investigation of existence, exploring matter, mind, consciousness, meaning, and the relationship between scientific explanation and human experience.";
+    }
+    if (work.title === "Eudainomic Flow, or the Art of Flourishing") {
+      return "A philosophical exploration of human flourishing, examining how people can construct lives of meaning, balance, purpose, and sustained well-being.";
+    }
+    if (work.title === "Constraintism — A Constraint-based Philosophy") {
+      return "A philosophical framework proposing that constraints, rather than isolated objects or events, provide a powerful way to understand reality, knowledge, and human action.";
+    }
+    if (work.title === "Threshold Ethics") {
+      return "An ethical framework focused on thresholds: the points at which choices, risks, responsibilities, and consequences become morally significant.";
+    }
+    if (work.title === "Patterns That Matter") {
+      return "A philosophical investigation of patterns, significance, and the ways in which structure and meaning emerge from the complexity of existence.";
+    }
+    if (work.title === "The Symphony of Existence — From the Big Bang to the Illusion of Time") {
+      return "A philosophical journey from cosmology to consciousness, asking how matter, time, structure, and experience combine to produce the reality we inhabit.";
+    }
+
+     // Witchcraft, Magic & Sexuality
+    "Fundamentals of Witchcraft": "An introduction to the foundations of witchcraft and magick, providing a structured starting point for readers developing their understanding and practice.",
+    "Witchcraft and Magick": "A practical exploration of witchcraft and magick, moving beyond basic concepts into methods, practices, and the development of a personal magical discipline.",
+    "Advanced Witchcraft Training": "An advanced training manual covering techniques such as energy work, astral projection, sigils, evocation, shadow work, and other forms of contemporary magical practice.",
+    "Chaos Magick": "An introduction to chaos magick centred on belief, symbolism, sigils, altered states, servitors, experimentation, and the idea that magical practice can be deliberately designed and adapted.",
+    "The Complete Witchcraft Training Manual": "A collected edition bringing together the first three Anwar Zanzibar witchcraft training manuals, from foundational practice through advanced techniques.",
+    "Practical Guide to Witchcraft & Chaos Magick": "A practical introduction to witchcraft and chaos magick, combining traditional magical concepts with an experimental approach to belief, symbolism, ritual, and personal practice.",
+    "Entre Gemidos": "A Spanish-language exploration of the science and psychology of sexual pleasure, examining desire, arousal, the body, and the factors that shape intimate experience.",
+    "Behind the Moans": "An accessible exploration of the science of pleasure, examining the physical, psychological, and emotional dimensions of sexual experience.",
+    "Desire and Denunciation": "A history of sex magic from ancient temples to modern witchcraft.",
+    "Re-Enchantment of the Body": "The hidden history of sex, magic, and the sacred body.",
 };
 
   function descriptionFor(work, category) {
@@ -152,26 +172,6 @@
     }
     if (work.title === "The Frozen Lands") {
       return "Sarah Mackay travels into an increasingly dangerous frozen landscape where scientific investigation, survival, and hidden motives converge.";
-    }
-
-    // Major philosophy
-    if (work.title === "What is Existence? — Mind, Matter and Meaning") {
-      return "An accessible philosophical investigation of existence, exploring matter, mind, consciousness, meaning, and the relationship between scientific explanation and human experience.";
-    }
-    if (work.title === "Eudainomic Flow, or the Art of Flourishing") {
-      return "A philosophical exploration of human flourishing, examining how people can construct lives of meaning, balance, purpose, and sustained well-being.";
-    }
-    if (work.title === "Constraintism — A Constraint-based Philosophy") {
-      return "A philosophical framework proposing that constraints, rather than isolated objects or events, provide a powerful way to understand reality, knowledge, and human action.";
-    }
-    if (work.title === "Threshold Ethics") {
-      return "An ethical framework focused on thresholds: the points at which choices, risks, responsibilities, and consequences become morally significant.";
-    }
-    if (work.title === "Patterns That Matter") {
-      return "A philosophical investigation of patterns, significance, and the ways in which structure and meaning emerge from the complexity of existence.";
-    }
-    if (work.title === "The Symphony of Existence — From the Big Bang to the Illusion of Time") {
-      return "A philosophical journey from cosmology to consciousness, asking how matter, time, structure, and experience combine to produce the reality we inhabit.";
     }
 
     // Category fallbacks
