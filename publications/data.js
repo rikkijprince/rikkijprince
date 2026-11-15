@@ -18,6 +18,7 @@
    "published"  — live and linkable
    "ready"      — finished, not yet released ("ready to publish" in source)
    "editing"    — in progress ("to be edited" in source)
+   "pending"    — planned but not written yet
    ============================================================ */
 
 const CATEGORIES = [   
@@ -34,11 +35,11 @@ const CATEGORIES = [
 
 const WORKS = [
   // ---------------- Novellas & Flash Fiction ----------------
-  { category: "novellas-flash-fiction", written: 38,    pub: 25,  code: "NF1",  title: "Mystery in Reverse", note: "flash fiction", status: "published", url: "books2read.com/u/mZkAYy" },
+  { category: "novellas-flash-fiction", written: 38,    pub: 25,  code: "NF1",  title: "Mystery in Reverse", note: "flash fiction", status: "published", url: "https://books2read.com/u/mZkAYy" },
   { category: "novellas-flash-fiction", written: 41,    pub: 26,  code: "NF1S", title: "Misterio al revés", language: "Spanish", note: "flash fiction · translation of T01", status: "published", url: "https://books2read.com/u/mYkPWx" },
   { category: "novellas-flash-fiction", written: 39,    pub: 24,  code: "NF2",  title: "Murder Undone", note: "novelette", status: "published", url: "https://books2read.com/u/m20OpO" },
   { category: "novellas-flash-fiction", written: 42,    pub: 22,  code: "NF2S", title: "Un crimen por deshacer", language: "Spanish", note: "novelette · translation of T02", status: "published", url: "https://books2read.com/u/bp250q" },
-  { category: "novellas-flash-fiction", written: 40,              code: "NF3",  title: "Eternal Return", note: "novelette", status: "unpublished", url: "" },
+  { category: "novellas-flash-fiction", written: 40,              code: "NF3",  title: "Eternal Return", note: "novelette", status: "editing", url: "" },
   { category: "novellas-flash-fiction", written: 43,    pub: 20,  code: "NF4",  title: "The Never-Ending Question", status: "published", url: "https://books2read.com/u/brEorZ" },
   { category: "novellas-flash-fiction", written: 44,    pub: 23,  code: "NF5",  title: "The Moonfire Pact", note: "novelette", status: "published", url: "https://books2read.com/u/4E0v0e" },
   { category: "novellas-flash-fiction", written: 50,    pub: 82,  code: "NF11", title: "Ein Café namens Zuflucht", language: "German", note: "novella", status: "published", url: "https://books2read.com/u/mYJX9W" },
@@ -50,8 +51,8 @@ const WORKS = [
 
    // ---------------- Science Fiction ----------------
   { category: "sci-fi", written: 118, pub: 107, code: "SF1", title: "A Codex of Observations on Humanity", status: "published", url: "https://www.amazon.com/dp/B0HJK15DGQ?tag=rjpamazon-21" },
-  { category: "sci-fi", written: 120, pub: 112, code: "SF3", title: "The Universe in Extremis: A journey to the Limits of Space and Time", status: "published", url: "https://www.amazon.com/dp/B0HNW6YBT8?tag=rjpamazon-21" },
-  { category: "sci-fi", written: 121, pub: 113, code: "SF4", title: "The Uniiverse Extra Machina: Beyond the Cosmic Event Horizon", status: "published", url: "https://www.amazon.com/dp/B0HNW6YBT8?tag=rjpamazon-21" },
+  { category: "sci-fi", written: 120, pub: 112, code: "SF3", title: "The Universe in Extremis: A journey to the Limits of Space and Time", status: "published", url: "https://www.amazon.com/dp/XXXXXXXXXX?tag=rjpamazon-21" },
+  { category: "sci-fi", written: 121, pub: 113, code: "SF4", title: "The Universe Extra Machina: Beyond the Cosmic Event Horizon", status: "published", url: "https://www.amazon.com/dp/XXXXXXXXXX?tag=rjpamazon-21" },
   { category: "sci-fi",               pub: 110, code: "SF3+4", title: "Starlight Aurora: Surfing the Edge of Reality", status: "published", url: "https://www.amazon.com/dp/B0HNW6YBT8?tag=rjpamazon-21" },
   { category: "sci-fi", written: 119, pub: 111, code: "SF2", title: "The Choir of Dust", status: "published", url: "" },
   
@@ -59,26 +60,26 @@ const WORKS = [
   { category: "thrillers", written: 111,    pub: 104, code: "T1",  title: "Bicameral: A Novel of Language, Consciousness and the Origins of the Human Mind", status: "published", url: "https://www.amazon.com/dp/B0HHFB1291?tag=rjpamazon-21" },
   { category: "thrillers", written: 112,    pub: 105, code: "T1S", title: "Bicameral: Una Novela sobre el lenguaje, la conciencia y los orígenes de la mente humana", language: "Spanish", status: "published", url: "https://www.amazon.es/Bicameral-lenguaje-conciencia-orígenes-Spanish-ebook/dp/B0HHFBBKJL?tag=rjpamazon-21" },
   { category: "thrillers", written: 113,    pub: 106, code: "T2",  title: "The 14th Page", status: "published", url: "https://www.amazon.es/dp/B0HJJY5J3F?tag=rjpamazon-21" },
-  { category: "thrillers", written: 114,    pub: 108, code: "T3",  title: "The Secrets We Keep", status: "published", url: "amazon.com/dp/B0HK185QJZ" },
-  { category: "thrillers", written: 117,    pub: 117,  code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "published", url: "amazon.es/dp/B0HK13K4YD" },
+  { category: "thrillers", written: 114,    pub: 108, code: "T3",  title: "The Secrets We Keep", status: "published", url: "https://amazon.com/dp/B0HK185QJZ?tag=rjpamazon-21" },
+  { category: "thrillers", written: 117,    pub: 117,  code: "T3S", title: "Los secretos que guardamos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0HK13K4YD?tag=rjpamazon-21" },
    
   // ---------------- Sarah Mackay — Nine Days Series ----------------
-  { category: "nine-days", written: 1, pub: 7,  code: "9D01", title: "Geneva", status: "published", url: "https://draft2digital.com/book/2269819" },
-  { category: "nine-days", written: 2, pub: 1,  code: "9D02", title: "Istanbul", status: "published", url: "https://draft2digital.com/book/2167152" },
-  { category: "nine-days", written: 3, pub: 2,  code: "9D03", title: "Prague", status: "published", url: "https://draft2digital.com/book/2167132" },
-  { category: "nine-days", written: 5, pub: 4,  code: "9D04", title: "Paris", status: "published", url: "https://draft2digital.com/book/2217447" },
-  { category: "nine-days", written: 7, pub: 6,  code: "9D05", title: "Florence", status: "published", url: "https://draft2digital.com/book/2217458" },
-  { category: "nine-days", written: 8, pub: 8,  code: "9D06", title: "Copenhagen", status: "published", url: "https://draft2digital.com/book/2309959" },
-  { category: "nine-days", written: 9, pub: 9,  code: "9D07", title: "Bern", status: "published", url: "https://draft2digital.com/book/2310121" },
-  { category: "nine-days", written: 11, pub: 11, code: "9D08", title: "Berlin", status: "published", url: "https://draft2digital.com/book/2537375" },
-  { category: "nine-days", written: 13, pub: 10, code: "9D10", title: "Kyiv", status: "published", url: "https://draft2digital.com/book/2537438" },
-  { category: "nine-days", written: 15, pub: 14, code: "9D10", title: "Oxford", status: "published", url: "https://draft2digital.com/book/2636970" },
-  { category: "nine-days", written: 16, pub: 15, code: "9D11", title: "Princeton", status: "published", url: "https://draft2digital.com/book/2638361" },
-  { category: "nine-days", written: 18, pub: 16, code: "9D12", title: "New York", status: "published", url: "https://draft2digital.com/book/2638809" },
-  { category: "nine-days", written: 12, pub: 19, code: "9D13", title: "Mexico City", status: "published", url: "https://draft2digital.com/book/2638837" },
-  { category: "nine-days", written: 21, pub: 18, code: "9D14", title: "Cambridge", status: "published", url: "https://draft2digital.com/book/2643936" },
-  { category: "nine-days", written: 22, pub: 19, code: "9D15", title: "Kyoto", status: "published", url: "https://draft2digital.com/book/2825965" },
-  { category: "nine-days", written: 128,          code: "9D16", title: "Loch Ness", status: "pending" },
+  { category: "nine-days", written: 1, pub: 7,  code: "S01", title: "Geneva", status: "published", url: "https://draft2digital.com/book/2269819" },
+  { category: "nine-days", written: 2, pub: 1,  code: "9S2", title: "Istanbul", status: "published", url: "https://draft2digital.com/book/2167152" },
+  { category: "nine-days", written: 3, pub: 2,  code: "S03", title: "Prague", status: "published", url: "https://draft2digital.com/book/2167132" },
+  { category: "nine-days", written: 5, pub: 4,  code: "S04", title: "Paris", status: "published", url: "https://draft2digital.com/book/2217447" },
+  { category: "nine-days", written: 7, pub: 6,  code: "S05", title: "Florence", status: "published", url: "https://draft2digital.com/book/2217458" },
+  { category: "nine-days", written: 8, pub: 8,  code: "S06", title: "Copenhagen", status: "published", url: "https://draft2digital.com/book/2309959" },
+  { category: "nine-days", written: 9, pub: 9,  code: "S07", title: "Bern", status: "published", url: "https://draft2digital.com/book/2310121" },
+  { category: "nine-days", written: 11, pub: 11, code: "S08", title: "Berlin", status: "published", url: "https://draft2digital.com/book/2537375" },
+  { category: "nine-days", written: 13, pub: 10, code: "S09", title: "Kyiv", status: "published", url: "https://draft2digital.com/book/2537438" },
+  { category: "nine-days", written: 15, pub: 14, code: "S10", title: "Oxford", status: "published", url: "https://draft2digital.com/book/2636970" },
+  { category: "nine-days", written: 16, pub: 15, code: "S11", title: "Princeton", status: "published", url: "https://draft2digital.com/book/2638361" },
+  { category: "nine-days", written: 18, pub: 16, code: "S12", title: "New York", status: "published", url: "https://draft2digital.com/book/2638809" },
+  { category: "nine-days", written: 12, pub: 19, code: "S13", title: "Mexico City", status: "published", url: "https://draft2digital.com/book/2638837" },
+  { category: "nine-days", written: 21, pub: 18, code: "S14", title: "Cambridge", status: "published", url: "https://draft2digital.com/book/2643936" },
+  { category: "nine-days", written: 22, pub: 19, code: "S15", title: "Kyoto", status: "published", url: "https://draft2digital.com/book/2825965" },
+  { category: "nine-days", written: 128,          code: "S16", title: "Loch Ness", status: "pending" },
    
   // ---------------- Sarah Mackay — Novels ----------------
   { category: "sarah-mackay-novels", written: 25, pub: 13, code: "SMN1", title: "Beijing", status: "published", url: "https://amzn.eu/d/38walHb?tag=rjpamazon-21" },
@@ -160,7 +161,7 @@ const WORKS = [
   { category: "witchcraft-magic-sexuality", written: 62, pub: 96, code: "W4",   title: "Chaos Magick", status: "published", url: "https://books2read.com/u/4jkZo5" },
   { category: "witchcraft-magic-sexuality",              pub: 35,  code: "WMS1-3", title: "The Complete Witchcraft Training Manual", note: "box set · W1–W3", status: "published", url: "https://amazon.es/dp/B0F32D82J9?tag=rjpamazon-21" },
   { category: "witchcraft-magic-sexuality",              pub: 36,  code: "W1-4", title: "Practical Guide to Witchcraft & Chaos Magick", status: "published", url: "https://amazon.es/dp/B0F9XZJVQL?tag=rjpamazon-21" },
-  { category: "witchcraft-magic-sexuality", written: 68, pub 114,  code: "W5",    title: "Naked Before the Gods", status: "editing" },
+  { category: "witchcraft-magic-sexuality", written: 68, pub: 114,  code: "W5",    title: "Naked Before the Gods", status: "editing" },
   { category: "witchcraft-magic-sexuality", written: 69, pub: 41,  code: "X1",    title: "Behind the Moans", status: "published", url: "https://amazon.es/dp/B0FB525NFB?tag=rjpamazon-21" },
   { category: "witchcraft-magic-sexuality", written: 70, pub: 42,  code: "X1S",    title: "Entre Gemidos", language: "Spanish", status: "published", url: "https://amazon.es/dp/B0FB9QK8JZ?tag=rjpamazon-21" },
 
