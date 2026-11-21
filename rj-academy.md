@@ -12,11 +12,11 @@ lang: en
 
 RJ Academy offers **personal English fluency training** in online sessions for anyone with a stable Internet connection **anywhere in the World**.
 
-The objective is not simply to study more grammar or learn more vocabulary. The objective is to **communicate**: to understand other people, express yourself clearly, react spontaneously and develop the confidence needed to use English outside the classroom. I also coach CEOs and technological professionals around the world who need to communicate technology and motivate teams.
+The objective is not simply to study more grammar or learn more vocabulary. The objective is to **communicate**: to **understand** other people, **express** yourself clearly, **react** spontaneously and develop the **confidence** needed to use English outside the classroom. I also coach CEOs and technological professionals around the world who need to communicate technology and motivate teams.
 
-## A communicative method
+## Methodology
 
-Classes are based primarily on the **communicative method**. From the beginning, students use English to speak, listen, ask questions, explain, describe, solve problems and maintain real conversations.
+Classes are based primarily on the **Communicative Method**. From the beginning, students use English to speak, listen, ask questions, explain, describe, solve problems and maintain real conversations.
 
 Grammar and vocabulary are worked on when they help improve communication. The class is not about memorising lists of words or translating sentences mechanically: it is about learning to use the language as a living tool.
 
@@ -32,7 +32,7 @@ However, I do not consider it necessary to choose between them.
 
 ## International English
 
-We teach you to use **ELF/EIL** for speaking: a clear, natural and flexible English that can be understood easily anywhere in the world, and **Oxford Spelling**, the spelling convention used for international publications like **Nature** or internation organisms like the **United Nations**, for writing.
+Classes are taught using **ELF/EIL** for speaking: a clear, natural and flexible English that can be understood easily anywhere in the world, and **Oxford Spelling**, the spelling convention used for international publications like **Nature** or international organisms like the **United Nations**, for writing.
 
 This will give you pronunciation, rhythm, vocabulary and expressions that facilitate communication with people from different countries, without needing to imitate a single national accent perfectly.
 
